@@ -10,1942 +10,1828 @@ import androidx.compose.ui.graphics.Color
 
 /** [Radix Colors] A gorgeous, accessible color system. */
 object RadixColors {
-    /** [Radix Colors] Collection: amber */
-    @JVMStatic
-    val amber =
-        listOf(
-              Color.hsl(39, 0.700, 0.990),
-              Color.hsl(40, 1.000, 0.965),
-              Color.hsl(44, 1.000, 0.917),
-              Color.hsl(43, 1.000, 0.868),
-              Color.hsl(42, 1.000, 0.818),
-              Color.hsl(38, 0.997, 0.763),
-              Color.hsl(36, 0.861, 0.671),
-              Color.hsl(35, 0.852, 0.551),
-              Color.hsl(39, 1.000, 0.570),
-              Color.hsl(35, 1.000, 0.555),
-              Color.hsl(30, 1.000, 0.340),
-              Color.hsl(20, 0.800, 0.170),
-        )
-    /** [Radix Colors] Collection: amberA */
-    @JVMStatic
-    val amberA =
-        listOf(
-             Color.hsl(40, 0.949, 0.387, 0.016),
-             Color.hsl(40, 1.000, 0.503, 0.071),
-             Color.hsl(44, 1.000, 0.501, 0.165),
-             Color.hsl(43, 1.000, 0.500, 0.263),
-             Color.hsl(42, 1.000, 0.500, 0.365),
-             Color.hsl(38, 1.000, 0.501, 0.475),
-             Color.hsl(36, 0.999, 0.462, 0.612),
-             Color.hsl(35, 0.998, 0.460, 0.832),
-             Color.hsl(39, 1.000, 0.500, 0.859),
-             Color.hsl(35, 1.000, 0.500, 0.891),
-             Color.hsl(29, 1.000, 0.336, 0.980),
-             Color.hsl(20, 0.998, 0.141, 0.965),
-        )
-    /** [Radix Colors] Collection: amberDark */
-    @JVMStatic
-    val amberDark =
-        listOf(
-              Color.hsl(36, 1.000, 0.061),
-              Color.hsl(35, 1.000, 0.076),
-              Color.hsl(32, 1.000, 0.102),
-              Color.hsl(32, 1.000, 0.124),
-              Color.hsl(33, 1.000, 0.146),
-              Color.hsl(35, 1.000, 0.171),
-              Color.hsl(35, 0.910, 0.216),
-              Color.hsl(36, 1.000, 0.255),
-              Color.hsl(39, 1.000, 0.570),
-              Color.hsl(43, 1.000, 0.640),
-              Color.hsl(39, 0.900, 0.498),
-              Color.hsl(39, 0.970, 0.932),
-        )
-    /** [Radix Colors] Collection: amberDarkA */
-    @JVMStatic
-    val amberDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(31, 1.000, 0.497, 0.036),
-             Color.hsl(27, 1.000, 0.499, 0.094),
-             Color.hsl(29, 1.000, 0.500, 0.143),
-             Color.hsl(31, 1.000, 0.500, 0.192),
-             Color.hsl(35, 1.000, 0.500, 0.250),
-             Color.hsl(34, 0.996, 0.529, 0.331),
-             Color.hsl(36, 1.000, 0.500, 0.442),
-             Color.hsl(40, 1.000, 0.572, 0.980),
-             Color.hsl(44, 1.000, 0.642, 0.980),
-             Color.hsl(39, 0.999, 0.527, 0.938),
-             Color.hsl(45, 1.000, 0.942, 0.980),
-        )
-    /** [Radix Colors] Collection: blackA */
-    @JVMStatic
-    val blackA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.012),
-             Color.hsl(0, 0.000, 0.000, 0.027),
-             Color.hsl(0, 0.000, 0.000, 0.047),
-             Color.hsl(0, 0.000, 0.000, 0.071),
-             Color.hsl(0, 0.000, 0.000, 0.090),
-             Color.hsl(0, 0.000, 0.000, 0.114),
-             Color.hsl(0, 0.000, 0.000, 0.141),
-             Color.hsl(0, 0.000, 0.000, 0.220),
-             Color.hsl(0, 0.000, 0.000, 0.439),
-             Color.hsl(0, 0.000, 0.000, 0.478),
-             Color.hsl(0, 0.000, 0.000, 0.565),
-             Color.hsl(0, 0.000, 0.000, 0.910),
-        )
-    /** [Radix Colors] Collection: blue */
-    @JVMStatic
-    val blue =
-        listOf(
-              Color.hsl(206, 1.000, 0.992),
-              Color.hsl(210, 1.000, 0.980),
-              Color.hsl(209, 1.000, 0.965),
-              Color.hsl(210, 0.988, 0.940),
-              Color.hsl(209, 0.950, 0.901),
-              Color.hsl(209, 0.812, 0.845),
-              Color.hsl(208, 0.775, 0.769),
-              Color.hsl(206, 0.819, 0.653),
-              Color.hsl(206, 1.000, 0.500),
-              Color.hsl(208, 1.000, 0.473),
-              Color.hsl(211, 1.000, 0.432),
-              Color.hsl(211, 1.000, 0.150),
-        )
-    /** [Radix Colors] Collection: blueA */
-    @JVMStatic
-    val blueA =
-        listOf(
-             Color.hsl(210, 1.000, 0.510, 0.016),
-             Color.hsl(210, 1.000, 0.510, 0.040),
-             Color.hsl(210, 1.000, 0.503, 0.071),
-             Color.hsl(210, 1.000, 0.501, 0.118),
-             Color.hsl(208, 0.991, 0.471, 0.189),
-             Color.hsl(209, 0.995, 0.453, 0.283),
-             Color.hsl(208, 0.999, 0.438, 0.412),
-             Color.hsl(206, 0.998, 0.451, 0.632),
-             Color.hsl(206, 1.000, 0.500, 0.980),
-             Color.hsl(208, 1.000, 0.472, 0.980),
-             Color.hsl(212, 1.000, 0.430, 0.980),
-             Color.hsl(213, 1.000, 0.144, 0.980),
-        )
-    /** [Radix Colors] Collection: blueDark */
-    @JVMStatic
-    val blueDark =
-        listOf(
-              Color.hsl(212, 0.350, 0.092),
-              Color.hsl(216, 0.500, 0.118),
-              Color.hsl(214, 0.594, 0.153),
-              Color.hsl(214, 0.658, 0.179),
-              Color.hsl(213, 0.712, 0.202),
-              Color.hsl(212, 0.774, 0.231),
-              Color.hsl(211, 0.851, 0.274),
-              Color.hsl(211, 0.897, 0.341),
-              Color.hsl(206, 1.000, 0.500),
-              Color.hsl(209, 1.000, 0.606),
-              Color.hsl(210, 1.000, 0.661),
-              Color.hsl(206, 0.980, 0.958),
-        )
-    /** [Radix Colors] Collection: blueDarkA */
-    @JVMStatic
-    val blueDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(221, 0.978, 0.524, 0.059),
-             Color.hsl(215, 0.993, 0.542, 0.135),
-             Color.hsl(215, 0.993, 0.538, 0.198),
-             Color.hsl(213, 0.994, 0.528, 0.252),
-             Color.hsl(212, 0.999, 0.517, 0.323),
-             Color.hsl(211, 1.000, 0.507, 0.435),
-             Color.hsl(211, 0.998, 0.509, 0.597),
-             Color.hsl(205, 1.000, 0.500, 0.980),
-             Color.hsl(208, 1.000, 0.607, 0.980),
-             Color.hsl(209, 1.000, 0.663, 0.980),
-             Color.hsl(196, 1.000, 0.968, 0.980),
-        )
-    /** [Radix Colors] Collection: bronze */
-    @JVMStatic
-    val bronze =
-        listOf(
-              Color.hsl(15, 0.300, 0.991),
-              Color.hsl(17, 0.636, 0.978),
-              Color.hsl(17, 0.421, 0.952),
-              Color.hsl(17, 0.352, 0.921),
-              Color.hsl(17, 0.315, 0.882),
-              Color.hsl(17, 0.290, 0.830),
-              Color.hsl(17, 0.269, 0.756),
-              Color.hsl(17, 0.251, 0.665),
-              Color.hsl(17, 0.200, 0.540),
-              Color.hsl(17, 0.181, 0.501),
-              Color.hsl(15, 0.200, 0.431),
-              Color.hsl(12, 0.220, 0.215),
-        )
-    /** [Radix Colors] Collection: bronzeA */
-    @JVMStatic
-    val bronzeA =
-        listOf(
-             Color.hsl(0, 0.893, 0.183, 0.012),
-             Color.hsl(17, 0.951, 0.401, 0.036),
-             Color.hsl(18, 0.983, 0.298, 0.067),
-             Color.hsl(17, 0.996, 0.260, 0.106),
-             Color.hsl(19, 0.996, 0.238, 0.157),
-             Color.hsl(17, 0.992, 0.225, 0.220),
-             Color.hsl(18, 0.997, 0.216, 0.310),
-             Color.hsl(17, 0.995, 0.202, 0.420),
-             Color.hsl(18, 0.999, 0.167, 0.553),
-             Color.hsl(17, 0.992, 0.154, 0.589),
-             Color.hsl(15, 0.999, 0.132, 0.655),
-             Color.hsl(12, 0.987, 0.057, 0.832),
-        )
-    /** [Radix Colors] Collection: bronzeDark */
-    @JVMStatic
-    val bronzeDark =
-        listOf(
-              Color.hsl(17, 0.100, 0.088),
-              Color.hsl(15, 0.148, 0.106),
-              Color.hsl(15, 0.163, 0.143),
-              Color.hsl(16, 0.171, 0.172),
-              Color.hsl(16, 0.176, 0.196),
-              Color.hsl(16, 0.181, 0.229),
-              Color.hsl(17, 0.188, 0.288),
-              Color.hsl(17, 0.196, 0.380),
-              Color.hsl(17, 0.200, 0.540),
-              Color.hsl(18, 0.240, 0.590),
-              Color.hsl(18, 0.350, 0.685),
-              Color.hsl(18, 0.570, 0.941),
-        )
-    /** [Radix Colors] Collection: bronzeDarkA */
-    @JVMStatic
-    val bronzeDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(20, 0.882, 0.742, 0.027),
-             Color.hsl(10, 0.994, 0.830, 0.074),
-             Color.hsl(18, 0.960, 0.811, 0.114),
-             Color.hsl(18, 0.994, 0.817, 0.148),
-             Color.hsl(15, 0.981, 0.824, 0.192),
-             Color.hsl(16, 0.992, 0.829, 0.270),
-             Color.hsl(18, 0.995, 0.826, 0.396),
-             Color.hsl(18, 0.993, 0.850, 0.592),
-             Color.hsl(18, 0.996, 0.852, 0.657),
-             Color.hsl(17, 0.999, 0.861, 0.774),
-             Color.hsl(20, 0.998, 0.964, 0.974),
-        )
-    /** [Radix Colors] Collection: brown */
-    @JVMStatic
-    val brown =
-        listOf(
-              Color.hsl(30, 0.400, 0.991),
-              Color.hsl(30, 0.500, 0.976),
-              Color.hsl(30, 0.525, 0.946),
-              Color.hsl(30, 0.530, 0.912),
-              Color.hsl(29, 0.529, 0.868),
-              Color.hsl(29, 0.525, 0.809),
-              Color.hsl(29, 0.515, 0.728),
-              Color.hsl(28, 0.500, 0.631),
-              Color.hsl(28, 0.340, 0.510),
-              Color.hsl(27, 0.318, 0.476),
-              Color.hsl(25, 0.300, 0.410),
-              Color.hsl(20, 0.300, 0.190),
-        )
-    /** [Radix Colors] Collection: brownA */
-    @JVMStatic
-    val brownA =
-        listOf(
-             Color.hsl(30, 0.943, 0.346, 0.012),
-             Color.hsl(30, 0.943, 0.346, 0.036),
-             Color.hsl(30, 0.977, 0.339, 0.083),
-             Color.hsl(31, 0.985, 0.342, 0.134),
-             Color.hsl(29, 1.000, 0.343, 0.200),
-             Color.hsl(28, 0.992, 0.346, 0.291),
-             Color.hsl(29, 0.998, 0.338, 0.412),
-             Color.hsl(28, 1.000, 0.333, 0.553),
-             Color.hsl(28, 0.999, 0.255, 0.655),
-             Color.hsl(27, 0.997, 0.224, 0.675),
-             Color.hsl(25, 0.998, 0.173, 0.714),
-             Color.hsl(21, 0.994, 0.066, 0.867),
-        )
-    /** [Radix Colors] Collection: brownDark */
-    @JVMStatic
-    val brownDark =
-        listOf(
-              Color.hsl(22, 0.150, 0.087),
-              Color.hsl(20, 0.283, 0.104),
-              Color.hsl(20, 0.280, 0.140),
-              Color.hsl(21, 0.284, 0.165),
-              Color.hsl(22, 0.287, 0.189),
-              Color.hsl(23, 0.290, 0.223),
-              Color.hsl(25, 0.295, 0.278),
-              Color.hsl(27, 0.301, 0.359),
-              Color.hsl(28, 0.340, 0.510),
-              Color.hsl(28, 0.414, 0.558),
-              Color.hsl(28, 0.600, 0.645),
-              Color.hsl(30, 0.670, 0.940),
-        )
-    /** [Radix Colors] Collection: brownDarkA */
-    @JVMStatic
-    val brownDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(22, 0.996, 0.536, 0.035),
-             Color.hsl(18, 0.978, 0.690, 0.088),
-             Color.hsl(21, 0.982, 0.710, 0.123),
-             Color.hsl(25, 0.984, 0.721, 0.158),
-             Color.hsl(25, 0.987, 0.735, 0.206),
-             Color.hsl(25, 0.990, 0.746, 0.289),
-             Color.hsl(28, 0.992, 0.753, 0.407),
-             Color.hsl(28, 1.000, 0.748, 0.642),
-             Color.hsl(28, 0.999, 0.749, 0.712),
-             Color.hsl(28, 0.999, 0.749, 0.843),
-             Color.hsl(32, 0.982, 0.957, 0.979),
-        )
-    /** [Radix Colors] Collection: crimson */
-    @JVMStatic
-    val crimson =
-        listOf(
-              Color.hsl(332, 1.000, 0.994),
-              Color.hsl(330, 1.000, 0.984),
-              Color.hsl(331, 0.856, 0.966),
-              Color.hsl(331, 0.781, 0.942),
-              Color.hsl(332, 0.721, 0.911),
-              Color.hsl(333, 0.670, 0.867),
-              Color.hsl(335, 0.635, 0.804),
-              Color.hsl(336, 0.623, 0.729),
-              Color.hsl(336, 0.800, 0.578),
-              Color.hsl(336, 0.737, 0.535),
-              Color.hsl(336, 0.750, 0.472),
-              Color.hsl(340, 0.650, 0.145),
-        )
-    /** [Radix Colors] Collection: crimsonA */
-    @JVMStatic
-    val crimsonA =
-        listOf(
-             Color.hsl(340, 1.000, 0.510, 0.012),
-             Color.hsl(330, 1.000, 0.510, 0.032),
-             Color.hsl(332, 0.991, 0.471, 0.063),
-             Color.hsl(331, 0.999, 0.443, 0.102),
-             Color.hsl(333, 0.999, 0.423, 0.153),
-             Color.hsl(333, 0.995, 0.405, 0.224),
-             Color.hsl(335, 0.997, 0.391, 0.322),
-             Color.hsl(336, 0.995, 0.385, 0.440),
-             Color.hsl(336, 0.999, 0.443, 0.761),
-             Color.hsl(336, 1.000, 0.425, 0.808),
-             Color.hsl(336, 0.998, 0.403, 0.883),
-             Color.hsl(340, 0.990, 0.100, 0.950),
-        )
-    /** [Radix Colors] Collection: crimsonDark */
-    @JVMStatic
-    val crimsonDark =
-        listOf(
-              Color.hsl(335, 0.200, 0.096),
-              Color.hsl(335, 0.322, 0.116),
-              Color.hsl(335, 0.425, 0.165),
-              Color.hsl(335, 0.472, 0.193),
-              Color.hsl(335, 0.509, 0.218),
-              Color.hsl(335, 0.557, 0.253),
-              Color.hsl(336, 0.629, 0.308),
-              Color.hsl(336, 0.749, 0.390),
-              Color.hsl(336, 0.800, 0.578),
-              Color.hsl(339, 0.841, 0.626),
-              Color.hsl(341, 0.900, 0.673),
-              Color.hsl(332, 0.870, 0.960),
-        )
-    /** [Radix Colors] Collection: crimsonDarkA */
-    @JVMStatic
-    val crimsonDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(336, 0.968, 0.532, 0.045),
-             Color.hsl(335, 0.987, 0.593, 0.138),
-             Color.hsl(336, 0.991, 0.599, 0.191),
-             Color.hsl(335, 0.994, 0.594, 0.244),
-             Color.hsl(335, 0.994, 0.594, 0.315),
-             Color.hsl(336, 0.995, 0.578, 0.439),
-             Color.hsl(336, 0.999, 0.554, 0.642),
-             Color.hsl(336, 0.999, 0.628, 0.903),
-             Color.hsl(339, 0.999, 0.663, 0.934),
-             Color.hsl(341, 0.999, 0.695, 0.965),
-             Color.hsl(327, 1.000, 0.971, 0.980),
-        )
-    /** [Radix Colors] Collection: cyan */
-    @JVMStatic
-    val cyan =
-        listOf(
-              Color.hsl(185, 0.600, 0.987),
-              Color.hsl(185, 0.733, 0.971),
-              Color.hsl(186, 0.702, 0.944),
-              Color.hsl(186, 0.638, 0.906),
-              Color.hsl(187, 0.583, 0.854),
-              Color.hsl(188, 0.546, 0.784),
-              Color.hsl(189, 0.537, 0.687),
-              Color.hsl(189, 0.603, 0.525),
-              Color.hsl(190, 0.950, 0.390),
-              Color.hsl(191, 0.912, 0.368),
-              Color.hsl(192, 0.850, 0.310),
-              Color.hsl(192, 0.880, 0.125),
-        )
-    /** [Radix Colors] Collection: cyanA */
-    @JVMStatic
-    val cyanA =
-        listOf(
-             Color.hsl(195, 0.952, 0.412, 0.020),
-             Color.hsl(185, 0.999, 0.423, 0.051),
-             Color.hsl(186, 0.978, 0.422, 0.095),
-             Color.hsl(186, 0.999, 0.385, 0.153),
-             Color.hsl(187, 0.993, 0.366, 0.232),
-             Color.hsl(188, 0.994, 0.354, 0.334),
-             Color.hsl(189, 0.996, 0.350, 0.483),
-             Color.hsl(189, 0.999, 0.376, 0.761),
-             Color.hsl(190, 1.000, 0.378, 0.980),
-             Color.hsl(191, 0.999, 0.346, 0.969),
-             Color.hsl(192, 1.000, 0.276, 0.953),
-             Color.hsl(192, 1.000, 0.110, 0.980),
-        )
-    /** [Radix Colors] Collection: cyanDark */
-    @JVMStatic
-    val cyanDark =
-        listOf(
-              Color.hsl(192, 0.600, 0.072),
-              Color.hsl(192, 0.714, 0.082),
-              Color.hsl(192, 0.759, 0.108),
-              Color.hsl(192, 0.793, 0.128),
-              Color.hsl(192, 0.825, 0.146),
-              Color.hsl(192, 0.866, 0.169),
-              Color.hsl(192, 0.926, 0.201),
-              Color.hsl(192, 1.000, 0.245),
-              Color.hsl(190, 0.950, 0.390),
-              Color.hsl(188, 1.000, 0.400),
-              Color.hsl(186, 1.000, 0.422),
-              Color.hsl(185, 0.730, 0.932),
-        )
-    /** [Radix Colors] Collection: cyanDarkA */
-    @JVMStatic
-    val cyanDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(196, 1.000, 0.500, 0.031),
-             Color.hsl(192, 0.980, 0.509, 0.085),
-             Color.hsl(194, 0.996, 0.513, 0.133),
-             Color.hsl(192, 0.995, 0.513, 0.173),
-             Color.hsl(193, 0.997, 0.504, 0.226),
-             Color.hsl(192, 1.000, 0.500, 0.310),
-             Color.hsl(193, 1.000, 0.500, 0.425),
-             Color.hsl(190, 0.998, 0.508, 0.731),
-             Color.hsl(188, 1.000, 0.500, 0.775),
-             Color.hsl(186, 1.000, 0.499, 0.824),
-             Color.hsl(185, 0.998, 0.951, 0.978),
-        )
-    /** [Radix Colors] Collection: gold */
-    @JVMStatic
-    val gold =
-        listOf(
-              Color.hsl(50, 0.200, 0.991),
-              Color.hsl(47, 0.529, 0.967),
-              Color.hsl(46, 0.382, 0.937),
-              Color.hsl(44, 0.327, 0.901),
-              Color.hsl(43, 0.299, 0.857),
-              Color.hsl(41, 0.283, 0.798),
-              Color.hsl(39, 0.276, 0.719),
-              Color.hsl(36, 0.272, 0.618),
-              Color.hsl(36, 0.200, 0.495),
-              Color.hsl(36, 0.198, 0.457),
-              Color.hsl(36, 0.200, 0.390),
-              Color.hsl(36, 0.160, 0.200),
-        )
-    /** [Radix Colors] Collection: goldA */
-    @JVMStatic
-    val goldA =
-        listOf(
-             Color.hsl(60, 0.893, 0.183, 0.012),
-             Color.hsl(47, 0.999, 0.346, 0.051),
-             Color.hsl(45, 0.970, 0.279, 0.087),
-             Color.hsl(46, 0.980, 0.254, 0.134),
-             Color.hsl(43, 0.984, 0.226, 0.185),
-             Color.hsl(41, 0.997, 0.220, 0.259),
-             Color.hsl(38, 0.998, 0.215, 0.357),
-             Color.hsl(36, 0.993, 0.215, 0.487),
-             Color.hsl(36, 0.999, 0.162, 0.604),
-             Color.hsl(36, 0.992, 0.146, 0.636),
-             Color.hsl(35, 0.991, 0.112, 0.687),
-             Color.hsl(38, 0.980, 0.038, 0.832),
-        )
-    /** [Radix Colors] Collection: goldDark */
-    @JVMStatic
-    val goldDark =
-        listOf(
-              Color.hsl(44, 0.090, 0.083),
-              Color.hsl(43, 0.143, 0.096),
-              Color.hsl(42, 0.155, 0.130),
-              Color.hsl(41, 0.164, 0.156),
-              Color.hsl(41, 0.169, 0.178),
-              Color.hsl(40, 0.176, 0.208),
-              Color.hsl(38, 0.185, 0.264),
-              Color.hsl(36, 0.196, 0.351),
-              Color.hsl(36, 0.200, 0.495),
-              Color.hsl(36, 0.223, 0.545),
-              Color.hsl(35, 0.300, 0.640),
-              Color.hsl(49, 0.520, 0.938),
-        )
-    /** [Radix Colors] Collection: goldDarkA */
-    @JVMStatic
-    val goldDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(40, 0.937, 0.706, 0.022),
-             Color.hsl(40, 0.975, 0.806, 0.065),
-             Color.hsl(40, 0.959, 0.808, 0.100),
-             Color.hsl(38, 0.973, 0.821, 0.130),
-             Color.hsl(39, 0.972, 0.825, 0.169),
-             Color.hsl(37, 0.993, 0.824, 0.246),
-             Color.hsl(35, 0.987, 0.822, 0.363),
-             Color.hsl(36, 0.997, 0.828, 0.552),
-             Color.hsl(35, 0.992, 0.837, 0.613),
-             Color.hsl(35, 0.993, 0.853, 0.725),
-             Color.hsl(49, 0.986, 0.967, 0.966),
-        )
-    /** [Radix Colors] Collection: grass */
-    @JVMStatic
-    val grass =
-        listOf(
-              Color.hsl(116, 0.500, 0.989),
-              Color.hsl(120, 0.600, 0.971),
-              Color.hsl(120, 0.536, 0.948),
-              Color.hsl(121, 0.475, 0.914),
-              Color.hsl(122, 0.426, 0.865),
-              Color.hsl(124, 0.390, 0.797),
-              Color.hsl(126, 0.371, 0.702),
-              Color.hsl(131, 0.381, 0.563),
-              Color.hsl(131, 0.410, 0.465),
-              Color.hsl(132, 0.431, 0.422),
-              Color.hsl(133, 0.500, 0.325),
-              Color.hsl(130, 0.300, 0.149),
-        )
-    /** [Radix Colors] Collection: grassA */
-    @JVMStatic
-    val grassA =
-        listOf(
-             Color.hsl(120, 0.949, 0.387, 0.016),
-             Color.hsl(120, 0.949, 0.387, 0.048),
-             Color.hsl(120, 0.980, 0.355, 0.079),
-             Color.hsl(120, 0.987, 0.315, 0.126),
-             Color.hsl(122, 0.985, 0.299, 0.193),
-             Color.hsl(125, 0.992, 0.279, 0.283),
-             Color.hsl(125, 0.999, 0.270, 0.408),
-             Color.hsl(131, 1.000, 0.276, 0.604),
-             Color.hsl(131, 0.997, 0.263, 0.726),
-             Color.hsl(132, 0.999, 0.240, 0.761),
-             Color.hsl(133, 0.995, 0.195, 0.840),
-             Color.hsl(128, 0.980, 0.049, 0.895),
-        )
-    /** [Radix Colors] Collection: grassDark */
-    @JVMStatic
-    val grassDark =
-        listOf(
-              Color.hsl(146, 0.300, 0.074),
-              Color.hsl(136, 0.333, 0.088),
-              Color.hsl(137, 0.360, 0.114),
-              Color.hsl(137, 0.376, 0.137),
-              Color.hsl(136, 0.387, 0.160),
-              Color.hsl(135, 0.396, 0.191),
-              Color.hsl(134, 0.403, 0.238),
-              Color.hsl(131, 0.401, 0.308),
-              Color.hsl(131, 0.410, 0.465),
-              Color.hsl(131, 0.390, 0.521),
-              Color.hsl(131, 0.430, 0.572),
-              Color.hsl(137, 0.720, 0.940),
-        )
-    /** [Radix Colors] Collection: grassDarkA */
-    @JVMStatic
-    val grassDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(107, 0.972, 0.619, 0.022),
-             Color.hsl(128, 0.965, 0.698, 0.066),
-             Color.hsl(130, 1.000, 0.702, 0.100),
-             Color.hsl(130, 0.982, 0.691, 0.140),
-             Color.hsl(132, 0.999, 0.693, 0.187),
-             Color.hsl(132, 0.999, 0.698, 0.261),
-             Color.hsl(130, 0.996, 0.705, 0.370),
-             Color.hsl(130, 0.997, 0.706, 0.618),
-             Color.hsl(131, 1.000, 0.735, 0.674),
-             Color.hsl(130, 0.997, 0.756, 0.731),
-             Color.hsl(137, 1.000, 0.958, 0.980),
-        )
-    /** [Radix Colors] Collection: gray */
-    @JVMStatic
-    val gray =
-        listOf(
-              Color.hsl(0, 0.000, 0.990),
-              Color.hsl(0, 0.000, 0.973),
-              Color.hsl(0, 0.000, 0.951),
-              Color.hsl(0, 0.000, 0.930),
-              Color.hsl(0, 0.000, 0.909),
-              Color.hsl(0, 0.000, 0.887),
-              Color.hsl(0, 0.000, 0.858),
-              Color.hsl(0, 0.000, 0.780),
-              Color.hsl(0, 0.000, 0.561),
-              Color.hsl(0, 0.000, 0.523),
-              Color.hsl(0, 0.000, 0.435),
-              Color.hsl(0, 0.000, 0.090),
-        )
-    /** [Radix Colors] Collection: grayA */
-    @JVMStatic
-    val grayA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.012),
-             Color.hsl(0, 0.000, 0.000, 0.027),
-             Color.hsl(0, 0.000, 0.000, 0.047),
-             Color.hsl(0, 0.000, 0.000, 0.071),
-             Color.hsl(0, 0.000, 0.000, 0.090),
-             Color.hsl(0, 0.000, 0.000, 0.114),
-             Color.hsl(0, 0.000, 0.000, 0.141),
-             Color.hsl(0, 0.000, 0.000, 0.220),
-             Color.hsl(0, 0.000, 0.000, 0.439),
-             Color.hsl(0, 0.000, 0.000, 0.478),
-             Color.hsl(0, 0.000, 0.000, 0.565),
-             Color.hsl(0, 0.000, 0.000, 0.910),
-        )
-    /** [Radix Colors] Collection: grayDark */
-    @JVMStatic
-    val grayDark =
-        listOf(
-              Color.hsl(0, 0.000, 0.085),
-              Color.hsl(0, 0.000, 0.110),
-              Color.hsl(0, 0.000, 0.136),
-              Color.hsl(0, 0.000, 0.158),
-              Color.hsl(0, 0.000, 0.179),
-              Color.hsl(0, 0.000, 0.205),
-              Color.hsl(0, 0.000, 0.243),
-              Color.hsl(0, 0.000, 0.312),
-              Color.hsl(0, 0.000, 0.439),
-              Color.hsl(0, 0.000, 0.494),
-              Color.hsl(0, 0.000, 0.628),
-              Color.hsl(0, 0.000, 0.930),
-        )
-    /** [Radix Colors] Collection: grayDarkA */
-    @JVMStatic
-    val grayDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 1.000, 0.000),
-             Color.hsl(0, 0.000, 1.000, 0.026),
-             Color.hsl(0, 0.000, 1.000, 0.056),
-             Color.hsl(0, 0.000, 1.000, 0.077),
-             Color.hsl(0, 0.000, 1.000, 0.103),
-             Color.hsl(0, 0.000, 1.000, 0.129),
-             Color.hsl(0, 0.000, 1.000, 0.172),
-             Color.hsl(0, 0.000, 1.000, 0.249),
-             Color.hsl(0, 0.000, 1.000, 0.386),
-             Color.hsl(0, 0.000, 1.000, 0.446),
-             Color.hsl(0, 0.000, 1.000, 0.592),
-             Color.hsl(0, 0.000, 1.000, 0.923),
-        )
-    /** [Radix Colors] Collection: green */
-    @JVMStatic
-    val green =
-        listOf(
-              Color.hsl(136, 0.500, 0.989),
-              Color.hsl(138, 0.625, 0.969),
-              Color.hsl(139, 0.552, 0.945),
-              Color.hsl(140, 0.487, 0.910),
-              Color.hsl(141, 0.437, 0.860),
-              Color.hsl(143, 0.403, 0.790),
-              Color.hsl(146, 0.385, 0.690),
-              Color.hsl(151, 0.402, 0.541),
-              Color.hsl(151, 0.550, 0.415),
-              Color.hsl(152, 0.575, 0.376),
-              Color.hsl(153, 0.670, 0.285),
-              Color.hsl(155, 0.400, 0.140),
-        )
-    /** [Radix Colors] Collection: greenA */
-    @JVMStatic
-    val greenA =
-        listOf(
-             Color.hsl(140, 0.949, 0.387, 0.016),
-             Color.hsl(138, 0.999, 0.385, 0.051),
-             Color.hsl(139, 0.977, 0.369, 0.087),
-             Color.hsl(139, 0.985, 0.327, 0.134),
-             Color.hsl(141, 1.000, 0.304, 0.200),
-             Color.hsl(142, 0.990, 0.289, 0.295),
-             Color.hsl(146, 0.995, 0.276, 0.428),
-             Color.hsl(151, 0.995, 0.288, 0.644),
-             Color.hsl(151, 0.999, 0.280, 0.812),
-             Color.hsl(152, 0.996, 0.258, 0.840),
-             Color.hsl(153, 0.999, 0.210, 0.906),
-             Color.hsl(155, 0.994, 0.062, 0.918),
-        )
-    /** [Radix Colors] Collection: greenDark */
-    @JVMStatic
-    val greenDark =
-        listOf(
-              Color.hsl(146, 0.300, 0.074),
-              Color.hsl(155, 0.442, 0.084),
-              Color.hsl(155, 0.467, 0.109),
-              Color.hsl(154, 0.484, 0.129),
-              Color.hsl(154, 0.497, 0.149),
-              Color.hsl(154, 0.509, 0.176),
-              Color.hsl(153, 0.518, 0.218),
-              Color.hsl(151, 0.517, 0.284),
-              Color.hsl(151, 0.550, 0.415),
-              Color.hsl(151, 0.493, 0.465),
-              Color.hsl(151, 0.500, 0.532),
-              Color.hsl(137, 0.720, 0.940),
-        )
-    /** [Radix Colors] Collection: greenDarkA */
-    @JVMStatic
-    val greenDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(169, 1.000, 0.485, 0.027),
-             Color.hsl(162, 0.987, 0.579, 0.070),
-             Color.hsl(158, 0.986, 0.597, 0.105),
-             Color.hsl(158, 0.986, 0.607, 0.140),
-             Color.hsl(156, 0.999, 0.620, 0.187),
-             Color.hsl(154, 0.995, 0.631, 0.257),
-             Color.hsl(152, 0.997, 0.642, 0.370),
-             Color.hsl(151, 0.997, 0.638, 0.605),
-             Color.hsl(152, 0.999, 0.665, 0.661),
-             Color.hsl(151, 0.997, 0.692, 0.740),
-             Color.hsl(137, 1.000, 0.958, 0.980),
-        )
-    /** [Radix Colors] Collection: indigo */
-    @JVMStatic
-    val indigo =
-        listOf(
-              Color.hsl(225, 0.600, 0.994),
-              Color.hsl(223, 1.000, 0.986),
-              Color.hsl(223, 0.984, 0.971),
-              Color.hsl(223, 0.929, 0.950),
-              Color.hsl(224, 0.871, 0.920),
-              Color.hsl(224, 0.819, 0.878),
-              Color.hsl(225, 0.774, 0.821),
-              Color.hsl(226, 0.754, 0.745),
-              Color.hsl(226, 0.700, 0.555),
-              Color.hsl(226, 0.586, 0.513),
-              Color.hsl(226, 0.550, 0.450),
-              Color.hsl(226, 0.620, 0.170),
-        )
-    /** [Radix Colors] Collection: indigoA */
-    @JVMStatic
-    val indigoA =
-        listOf(
-             Color.hsl(240, 0.926, 0.265, 0.008),
-             Color.hsl(223, 1.000, 0.510, 0.028),
-             Color.hsl(224, 1.000, 0.501, 0.059),
-             Color.hsl(223, 0.980, 0.485, 0.099),
-             Color.hsl(225, 0.986, 0.464, 0.150),
-             Color.hsl(224, 0.995, 0.449, 0.224),
-             Color.hsl(225, 0.997, 0.439, 0.318),
-             Color.hsl(226, 0.995, 0.431, 0.448),
-             Color.hsl(226, 1.000, 0.412, 0.757),
-             Color.hsl(226, 0.998, 0.371, 0.773),
-             Color.hsl(226, 0.996, 0.311, 0.797),
-             Color.hsl(226, 0.993, 0.114, 0.938),
-        )
-    /** [Radix Colors] Collection: indigoDark */
-    @JVMStatic
-    val indigoDark =
-        listOf(
-              Color.hsl(229, 0.240, 0.100),
-              Color.hsl(230, 0.364, 0.129),
-              Color.hsl(228, 0.433, 0.175),
-              Color.hsl(227, 0.472, 0.210),
-              Color.hsl(227, 0.500, 0.241),
-              Color.hsl(226, 0.529, 0.282),
-              Color.hsl(226, 0.560, 0.345),
-              Color.hsl(226, 0.582, 0.441),
-              Color.hsl(226, 0.700, 0.555),
-              Color.hsl(227, 0.752, 0.616),
-              Color.hsl(228, 1.000, 0.759),
-              Color.hsl(226, 0.830, 0.963),
-        )
-    /** [Radix Colors] Collection: indigoDarkA */
-    @JVMStatic
-    val indigoDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(234, 0.974, 0.599, 0.059),
-             Color.hsl(228, 0.992, 0.617, 0.144),
-             Color.hsl(227, 0.997, 0.620, 0.211),
-             Color.hsl(227, 0.992, 0.623, 0.270),
-             Color.hsl(226, 0.999, 0.621, 0.350),
-             Color.hsl(226, 0.999, 0.620, 0.471),
-             Color.hsl(226, 0.999, 0.621, 0.655),
-             Color.hsl(226, 0.999, 0.636, 0.848),
-             Color.hsl(227, 0.998, 0.677, 0.893),
-             Color.hsl(227, 1.000, 0.763, 0.980),
-             Color.hsl(226, 1.000, 0.975, 0.980),
-        )
-    /** [Radix Colors] Collection: lime */
-    @JVMStatic
-    val lime =
-        listOf(
-              Color.hsl(85, 0.500, 0.987),
-              Color.hsl(85, 0.667, 0.965),
-              Color.hsl(85, 0.760, 0.923),
-              Color.hsl(84, 0.753, 0.875),
-              Color.hsl(84, 0.715, 0.819),
-              Color.hsl(82, 0.650, 0.746),
-              Color.hsl(79, 0.532, 0.618),
-              Color.hsl(76, 0.617, 0.451),
-              Color.hsl(81, 0.670, 0.500),
-              Color.hsl(80, 0.683, 0.469),
-              Color.hsl(75, 0.800, 0.260),
-              Color.hsl(78, 0.700, 0.115),
-        )
-    /** [Radix Colors] Collection: limeA */
-    @JVMStatic
-    val limeA =
-        listOf(
-             Color.hsl(80, 0.938, 0.314, 0.020),
-             Color.hsl(85, 0.993, 0.402, 0.059),
-             Color.hsl(84, 0.987, 0.432, 0.138),
-             Color.hsl(84, 0.996, 0.430, 0.220),
-             Color.hsl(85, 0.998, 0.418, 0.310),
-             Color.hsl(82, 0.998, 0.393, 0.420),
-             Color.hsl(79, 0.997, 0.346, 0.585),
-             Color.hsl(76, 0.998, 0.337, 0.828),
-             Color.hsl(81, 0.998, 0.402, 0.836),
-             Color.hsl(80, 1.000, 0.376, 0.851),
-             Color.hsl(75, 0.995, 0.220, 0.950),
-             Color.hsl(78, 0.996, 0.084, 0.965),
-        )
-    /** [Radix Colors] Collection: limeDark */
-    @JVMStatic
-    val limeDark =
-        listOf(
-              Color.hsl(75, 0.550, 0.060),
-              Color.hsl(74, 0.568, 0.073),
-              Color.hsl(78, 0.502, 0.099),
-              Color.hsl(79, 0.503, 0.121),
-              Color.hsl(79, 0.526, 0.142),
-              Color.hsl(78, 0.557, 0.167),
-              Color.hsl(77, 0.597, 0.201),
-              Color.hsl(75, 0.648, 0.245),
-              Color.hsl(81, 0.670, 0.500),
-              Color.hsl(75, 0.850, 0.600),
-              Color.hsl(81, 0.700, 0.438),
-              Color.hsl(84, 0.790, 0.926),
-        )
-    /** [Radix Colors] Collection: limeDarkA */
-    @JVMStatic
-    val limeDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(75, 0.964, 0.596, 0.022),
-             Color.hsl(88, 0.980, 0.704, 0.061),
-             Color.hsl(81, 0.978, 0.674, 0.096),
-             Color.hsl(82, 0.984, 0.656, 0.135),
-             Color.hsl(79, 0.997, 0.643, 0.182),
-             Color.hsl(77, 0.991, 0.621, 0.252),
-             Color.hsl(75, 1.000, 0.600, 0.342),
-             Color.hsl(81, 0.998, 0.597, 0.819),
-             Color.hsl(75, 0.998, 0.637, 0.936),
-             Color.hsl(81, 0.999, 0.587, 0.719),
-             Color.hsl(83, 1.000, 0.942, 0.980),
-        )
-    /** [Radix Colors] Collection: mauve */
-    @JVMStatic
-    val mauve =
-        listOf(
-              Color.hsl(300, 0.200, 0.990),
-              Color.hsl(300, 0.077, 0.975),
-              Color.hsl(294, 0.055, 0.953),
-              Color.hsl(289, 0.047, 0.933),
-              Color.hsl(283, 0.044, 0.913),
-              Color.hsl(278, 0.041, 0.891),
-              Color.hsl(271, 0.039, 0.863),
-              Color.hsl(255, 0.037, 0.788),
-              Color.hsl(252, 0.040, 0.573),
-              Color.hsl(253, 0.035, 0.535),
-              Color.hsl(252, 0.040, 0.448),
-              Color.hsl(260, 0.250, 0.110),
-        )
-    /** [Radix Colors] Collection: mauveA */
-    @JVMStatic
-    val mauveA =
-        listOf(
-             Color.hsl(300, 0.893, 0.183, 0.012),
-             Color.hsl(300, 0.781, 0.090, 0.028),
-             Color.hsl(300, 0.995, 0.077, 0.051),
-             Color.hsl(270, 0.905, 0.061, 0.071),
-             Color.hsl(270, 0.830, 0.052, 0.091),
-             Color.hsl(300, 0.935, 0.037, 0.114),
-             Color.hsl(270, 0.826, 0.033, 0.142),
-             Color.hsl(255, 0.952, 0.037, 0.220),
-             Color.hsl(255, 0.948, 0.037, 0.444),
-             Color.hsl(253, 0.965, 0.038, 0.483),
-             Color.hsl(247, 0.979, 0.032, 0.569),
-             Color.hsl(261, 0.987, 0.030, 0.918),
-        )
-    /** [Radix Colors] Collection: mauveDark */
-    @JVMStatic
-    val mauveDark =
-        listOf(
-              Color.hsl(246, 0.060, 0.090),
-              Color.hsl(240, 0.051, 0.116),
-              Color.hsl(241, 0.050, 0.143),
-              Color.hsl(242, 0.049, 0.165),
-              Color.hsl(243, 0.049, 0.188),
-              Color.hsl(244, 0.049, 0.215),
-              Color.hsl(245, 0.049, 0.254),
-              Color.hsl(247, 0.048, 0.325),
-              Color.hsl(252, 0.040, 0.452),
-              Color.hsl(247, 0.034, 0.507),
-              Color.hsl(253, 0.040, 0.637),
-              Color.hsl(256, 0.060, 0.932),
-        )
-    /** [Radix Colors] Collection: mauveDarkA */
-    @JVMStatic
-    val mauveDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(240, 0.767, 0.912, 0.031),
-             Color.hsl(240, 0.860, 0.958, 0.061),
-             Color.hsl(240, 0.918, 0.947, 0.087),
-             Color.hsl(240, 0.915, 0.958, 0.113),
-             Color.hsl(240, 0.920, 0.938, 0.148),
-             Color.hsl(240, 0.948, 0.953, 0.191),
-             Color.hsl(249, 0.981, 0.952, 0.273),
-             Color.hsl(248, 0.976, 0.962, 0.416),
-             Color.hsl(248, 0.955, 0.966, 0.477),
-             Color.hsl(250, 0.980, 0.980, 0.615),
-             Color.hsl(240, 0.939, 0.996, 0.931),
-        )
-    /** [Radix Colors] Collection: mint */
-    @JVMStatic
-    val mint =
-        listOf(
-              Color.hsl(165, 0.800, 0.988),
-              Color.hsl(164, 0.882, 0.967),
-              Color.hsl(164, 0.766, 0.933),
-              Color.hsl(165, 0.688, 0.895),
-              Color.hsl(165, 0.606, 0.845),
-              Color.hsl(165, 0.535, 0.769),
-              Color.hsl(166, 0.507, 0.661),
-              Color.hsl(168, 0.528, 0.510),
-              Color.hsl(167, 0.650, 0.660),
-              Color.hsl(167, 0.593, 0.631),
-              Color.hsl(172, 0.720, 0.285),
-              Color.hsl(172, 0.700, 0.120),
-        )
-    /** [Radix Colors] Collection: mintA */
-    @JVMStatic
-    val mintA =
-        listOf(
-             Color.hsl(168, 0.954, 0.428, 0.024),
-             Color.hsl(164, 0.991, 0.471, 0.063),
-             Color.hsl(164, 0.993, 0.435, 0.118),
-             Color.hsl(164, 0.993, 0.413, 0.177),
-             Color.hsl(165, 0.990, 0.375, 0.248),
-             Color.hsl(165, 1.000, 0.350, 0.353),
-             Color.hsl(166, 0.999, 0.335, 0.510),
-             Color.hsl(168, 0.996, 0.346, 0.750),
-             Color.hsl(167, 0.999, 0.395, 0.561),
-             Color.hsl(167, 0.997, 0.374, 0.589),
-             Color.hsl(172, 0.998, 0.224, 0.922),
-             Color.hsl(172, 0.997, 0.088, 0.965),
-        )
-    /** [Radix Colors] Collection: mintDark */
-    @JVMStatic
-    val mintDark =
-        listOf(
-              Color.hsl(173, 0.500, 0.066),
-              Color.hsl(176, 0.730, 0.073),
-              Color.hsl(175, 0.793, 0.089),
-              Color.hsl(174, 0.848, 0.103),
-              Color.hsl(174, 0.902, 0.119),
-              Color.hsl(173, 0.960, 0.138),
-              Color.hsl(172, 1.000, 0.168),
-              Color.hsl(170, 1.000, 0.214),
-              Color.hsl(167, 0.650, 0.660),
-              Color.hsl(163, 0.800, 0.770),
-              Color.hsl(167, 0.700, 0.480),
-              Color.hsl(165, 0.800, 0.948),
-        )
-    /** [Radix Colors] Collection: mintDarkA */
-    @JVMStatic
-    val mintDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(180, 1.000, 0.492, 0.031),
-             Color.hsl(176, 1.000, 0.497, 0.070),
-             Color.hsl(173, 1.000, 0.497, 0.105),
-             Color.hsl(173, 1.000, 0.498, 0.144),
-             Color.hsl(172, 1.000, 0.498, 0.192),
-             Color.hsl(171, 1.000, 0.499, 0.266),
-             Color.hsl(169, 1.000, 0.499, 0.366),
-             Color.hsl(167, 0.998, 0.750, 0.870),
-             Color.hsl(163, 0.999, 0.807, 0.948),
-             Color.hsl(167, 0.999, 0.587, 0.796),
-             Color.hsl(169, 1.000, 0.962, 0.980),
-        )
-    /** [Radix Colors] Collection: olive */
-    @JVMStatic
-    val olive =
-        listOf(
-              Color.hsl(110, 0.200, 0.990),
-              Color.hsl(120, 0.167, 0.976),
-              Color.hsl(119, 0.101, 0.952),
-              Color.hsl(118, 0.081, 0.930),
-              Color.hsl(117, 0.071, 0.908),
-              Color.hsl(115, 0.064, 0.885),
-              Color.hsl(114, 0.059, 0.854),
-              Color.hsl(110, 0.052, 0.773),
-              Color.hsl(110, 0.035, 0.555),
-              Color.hsl(111, 0.028, 0.517),
-              Color.hsl(110, 0.030, 0.430),
-              Color.hsl(110, 0.250, 0.095),
-        )
-    /** [Radix Colors] Collection: oliveA */
-    @JVMStatic
-    val oliveA =
-        listOf(
-             Color.hsl(120, 0.893, 0.183, 0.012),
-             Color.hsl(120, 0.877, 0.160, 0.028),
-             Color.hsl(120, 0.995, 0.077, 0.051),
-             Color.hsl(120, 0.923, 0.085, 0.075),
-             Color.hsl(120, 0.860, 0.069, 0.099),
-             Color.hsl(120, 0.948, 0.068, 0.122),
-             Color.hsl(120, 0.993, 0.052, 0.153),
-             Color.hsl(110, 0.938, 0.052, 0.240),
-             Color.hsl(111, 0.987, 0.030, 0.459),
-             Color.hsl(111, 0.935, 0.029, 0.499),
-             Color.hsl(111, 0.952, 0.025, 0.585),
-             Color.hsl(110, 0.976, 0.026, 0.930),
-        )
-    /** [Radix Colors] Collection: oliveDark */
-    @JVMStatic
-    val oliveDark =
-        listOf(
-              Color.hsl(110, 0.050, 0.086),
-              Color.hsl(105, 0.074, 0.106),
-              Color.hsl(106, 0.064, 0.131),
-              Color.hsl(106, 0.058, 0.153),
-              Color.hsl(107, 0.053, 0.174),
-              Color.hsl(107, 0.049, 0.199),
-              Color.hsl(108, 0.044, 0.236),
-              Color.hsl(110, 0.038, 0.306),
-              Color.hsl(110, 0.060, 0.425),
-              Color.hsl(111, 0.048, 0.482),
-              Color.hsl(110, 0.050, 0.618),
-              Color.hsl(110, 0.060, 0.930),
-        )
-    /** [Radix Colors] Collection: oliveDarkA */
-    @JVMStatic
-    val oliveDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(91, 0.970, 0.840, 0.026),
-             Color.hsl(101, 0.874, 0.877, 0.057),
-             Color.hsl(92, 0.918, 0.941, 0.078),
-             Color.hsl(101, 0.926, 0.935, 0.104),
-             Color.hsl(102, 0.911, 0.946, 0.130),
-             Color.hsl(102, 0.925, 0.959, 0.173),
-             Color.hsl(107, 1.000, 0.965, 0.250),
-             Color.hsl(110, 0.983, 0.941, 0.397),
-             Color.hsl(109, 0.996, 0.953, 0.457),
-             Color.hsl(113, 0.953, 0.972, 0.600),
-             Color.hsl(120, 0.935, 0.996, 0.927),
-        )
-    /** [Radix Colors] Collection: orange */
-    @JVMStatic
-    val orange =
-        listOf(
-              Color.hsl(24, 0.700, 0.990),
-              Color.hsl(24, 0.833, 0.976),
-              Color.hsl(24, 1.000, 0.953),
-              Color.hsl(25, 1.000, 0.922),
-              Color.hsl(25, 1.000, 0.882),
-              Color.hsl(25, 1.000, 0.828),
-              Color.hsl(24, 1.000, 0.753),
-              Color.hsl(24, 0.945, 0.643),
-              Color.hsl(24, 0.940, 0.500),
-              Color.hsl(24, 1.000, 0.465),
-              Color.hsl(24, 1.000, 0.370),
-              Color.hsl(15, 0.600, 0.170),
-        )
-    /** [Radix Colors] Collection: orangeA */
-    @JVMStatic
-    val orangeA =
-        listOf(
-             Color.hsl(20, 0.949, 0.387, 0.016),
-             Color.hsl(24, 0.958, 0.465, 0.044),
-             Color.hsl(25, 1.000, 0.505, 0.095),
-             Color.hsl(26, 1.000, 0.500, 0.157),
-             Color.hsl(25, 1.000, 0.501, 0.236),
-             Color.hsl(25, 1.000, 0.501, 0.346),
-             Color.hsl(24, 1.000, 0.501, 0.495),
-             Color.hsl(24, 0.997, 0.487, 0.695),
-             Color.hsl(24, 0.999, 0.484, 0.969),
-             Color.hsl(23, 1.000, 0.464, 0.980),
-             Color.hsl(23, 1.000, 0.368, 0.980),
-             Color.hsl(15, 0.994, 0.110, 0.934),
-        )
-    /** [Radix Colors] Collection: orangeDark */
-    @JVMStatic
-    val orangeDark =
-        listOf(
-              Color.hsl(30, 0.700, 0.072),
-              Color.hsl(28, 1.000, 0.084),
-              Color.hsl(26, 0.911, 0.116),
-              Color.hsl(25, 0.883, 0.141),
-              Color.hsl(24, 0.876, 0.166),
-              Color.hsl(24, 0.886, 0.198),
-              Color.hsl(24, 0.924, 0.240),
-              Color.hsl(25, 1.000, 0.290),
-              Color.hsl(24, 0.940, 0.500),
-              Color.hsl(24, 1.000, 0.585),
-              Color.hsl(24, 1.000, 0.622),
-              Color.hsl(24, 0.970, 0.932),
-        )
-    /** [Radix Colors] Collection: orangeDarkA */
-    @JVMStatic
-    val orangeDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(13, 1.000, 0.497, 0.054),
-             Color.hsl(20, 1.000, 0.497, 0.117),
-             Color.hsl(23, 1.000, 0.498, 0.166),
-             Color.hsl(23, 0.994, 0.501, 0.215),
-             Color.hsl(23, 0.998, 0.511, 0.286),
-             Color.hsl(23, 0.997, 0.506, 0.389),
-             Color.hsl(24, 1.000, 0.499, 0.523),
-             Color.hsl(24, 0.999, 0.516, 0.965),
-             Color.hsl(25, 1.000, 0.586, 0.980),
-             Color.hsl(24, 1.000, 0.624, 0.980),
-             Color.hsl(26, 1.000, 0.942, 0.980),
-        )
-    /** [Radix Colors] Collection: pink */
-    @JVMStatic
-    val pink =
-        listOf(
-              Color.hsl(322, 1.000, 0.994),
-              Color.hsl(323, 1.000, 0.984),
-              Color.hsl(323, 0.863, 0.965),
-              Color.hsl(323, 0.787, 0.942),
-              Color.hsl(323, 0.722, 0.911),
-              Color.hsl(323, 0.663, 0.866),
-              Color.hsl(323, 0.620, 0.801),
-              Color.hsl(323, 0.603, 0.724),
-              Color.hsl(322, 0.650, 0.545),
-              Color.hsl(322, 0.639, 0.507),
-              Color.hsl(322, 0.750, 0.460),
-              Color.hsl(320, 0.700, 0.135),
-        )
-    /** [Radix Colors] Collection: pinkA */
-    @JVMStatic
-    val pinkA =
-        listOf(
-             Color.hsl(320, 1.000, 0.510, 0.012),
-             Color.hsl(323, 1.000, 0.510, 0.032),
-             Color.hsl(323, 0.989, 0.473, 0.067),
-             Color.hsl(323, 0.999, 0.443, 0.102),
-             Color.hsl(324, 0.999, 0.423, 0.153),
-             Color.hsl(323, 0.995, 0.396, 0.224),
-             Color.hsl(323, 0.997, 0.385, 0.322),
-             Color.hsl(323, 0.995, 0.377, 0.444),
-             Color.hsl(322, 0.997, 0.393, 0.750),
-             Color.hsl(322, 1.000, 0.391, 0.808),
-             Color.hsl(322, 0.998, 0.390, 0.887),
-             Color.hsl(321, 0.998, 0.100, 0.961),
-        )
-    /** [Radix Colors] Collection: pinkDark */
-    @JVMStatic
-    val pinkDark =
-        listOf(
-              Color.hsl(318, 0.250, 0.096),
-              Color.hsl(319, 0.322, 0.116),
-              Color.hsl(319, 0.410, 0.160),
-              Color.hsl(320, 0.454, 0.187),
-              Color.hsl(320, 0.490, 0.211),
-              Color.hsl(321, 0.536, 0.244),
-              Color.hsl(321, 0.611, 0.297),
-              Color.hsl(322, 0.749, 0.375),
-              Color.hsl(322, 0.650, 0.545),
-              Color.hsl(323, 0.728, 0.592),
-              Color.hsl(325, 0.900, 0.664),
-              Color.hsl(322, 0.900, 0.958),
-        )
-    /** [Radix Colors] Collection: pinkDarkA */
-    @JVMStatic
-    val pinkDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(320, 0.981, 0.641, 0.036),
-             Color.hsl(320, 0.991, 0.631, 0.121),
-             Color.hsl(320, 0.995, 0.627, 0.170),
-             Color.hsl(319, 0.997, 0.615, 0.219),
-             Color.hsl(322, 0.994, 0.608, 0.291),
-             Color.hsl(321, 0.996, 0.587, 0.407),
-             Color.hsl(322, 0.997, 0.554, 0.608),
-             Color.hsl(322, 1.000, 0.646, 0.817),
-             Color.hsl(323, 1.000, 0.663, 0.875),
-             Color.hsl(325, 0.999, 0.686, 0.960),
-             Color.hsl(314, 1.000, 0.969, 0.980),
-        )
-    /** [Radix Colors] Collection: plum */
-    @JVMStatic
-    val plum =
-        listOf(
-              Color.hsl(292, 0.900, 0.994),
-              Color.hsl(300, 1.000, 0.986),
-              Color.hsl(299, 0.712, 0.964),
-              Color.hsl(299, 0.620, 0.938),
-              Color.hsl(298, 0.561, 0.905),
-              Color.hsl(296, 0.513, 0.858),
-              Color.hsl(295, 0.482, 0.789),
-              Color.hsl(292, 0.477, 0.708),
-              Color.hsl(292, 0.450, 0.510),
-              Color.hsl(292, 0.502, 0.469),
-              Color.hsl(292, 0.600, 0.425),
-              Color.hsl(291, 0.660, 0.140),
-        )
-    /** [Radix Colors] Collection: plumA */
-    @JVMStatic
-    val plumA =
-        listOf(
-             Color.hsl(280, 1.000, 0.510, 0.012),
-             Color.hsl(300, 1.000, 0.510, 0.028),
-             Color.hsl(300, 0.990, 0.409, 0.063),
-             Color.hsl(300, 0.999, 0.385, 0.102),
-             Color.hsl(298, 0.982, 0.359, 0.150),
-             Color.hsl(297, 0.996, 0.337, 0.216),
-             Color.hsl(295, 0.997, 0.326, 0.314),
-             Color.hsl(292, 0.996, 0.324, 0.432),
-             Color.hsl(292, 0.999, 0.310, 0.710),
-             Color.hsl(292, 0.999, 0.308, 0.765),
-             Color.hsl(292, 0.998, 0.307, 0.832),
-             Color.hsl(291, 0.999, 0.097, 0.953),
-        )
-    /** [Radix Colors] Collection: plumDark */
-    @JVMStatic
-    val plumDark =
-        listOf(
-              Color.hsl(301, 0.200, 0.094),
-              Color.hsl(300, 0.298, 0.112),
-              Color.hsl(298, 0.344, 0.153),
-              Color.hsl(297, 0.368, 0.183),
-              Color.hsl(296, 0.385, 0.211),
-              Color.hsl(295, 0.404, 0.247),
-              Color.hsl(294, 0.427, 0.306),
-              Color.hsl(292, 0.451, 0.400),
-              Color.hsl(292, 0.450, 0.510),
-              Color.hsl(295, 0.500, 0.554),
-              Color.hsl(300, 0.600, 0.620),
-              Color.hsl(296, 0.740, 0.957),
-        )
-    /** [Radix Colors] Collection: plumDarkA */
-    @JVMStatic
-    val plumDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(300, 0.964, 0.584, 0.036),
-             Color.hsl(300, 0.994, 0.671, 0.102),
-             Color.hsl(295, 0.998, 0.663, 0.155),
-             Color.hsl(295, 0.994, 0.671, 0.204),
-             Color.hsl(294, 0.990, 0.678, 0.262),
-             Color.hsl(294, 0.999, 0.677, 0.363),
-             Color.hsl(292, 0.998, 0.675, 0.527),
-             Color.hsl(292, 0.999, 0.692, 0.695),
-             Color.hsl(295, 0.999, 0.708, 0.748),
-             Color.hsl(300, 0.998, 0.729, 0.828),
-             Color.hsl(300, 1.000, 0.971, 0.980),
-        )
-    /** [Radix Colors] Collection: purple */
-    @JVMStatic
-    val purple =
-        listOf(
-              Color.hsl(280, 0.650, 0.994),
-              Color.hsl(276, 1.000, 0.990),
-              Color.hsl(276, 0.831, 0.970),
-              Color.hsl(275, 0.764, 0.947),
-              Color.hsl(275, 0.708, 0.918),
-              Color.hsl(274, 0.654, 0.878),
-              Color.hsl(273, 0.610, 0.817),
-              Color.hsl(272, 0.600, 0.735),
-              Color.hsl(272, 0.510, 0.540),
-              Color.hsl(272, 0.468, 0.503),
-              Color.hsl(272, 0.500, 0.458),
-              Color.hsl(272, 0.660, 0.160),
-        )
-    /** [Radix Colors] Collection: purpleA */
-    @JVMStatic
-    val purpleA =
-        listOf(
-             Color.hsl(300, 0.943, 0.346, 0.012),
-             Color.hsl(276, 1.000, 0.510, 0.020),
-             Color.hsl(277, 0.996, 0.465, 0.055),
-             Color.hsl(274, 0.979, 0.443, 0.095),
-             Color.hsl(276, 0.986, 0.420, 0.142),
-             Color.hsl(275, 1.000, 0.392, 0.200),
-             Color.hsl(273, 0.992, 0.382, 0.295),
-             Color.hsl(272, 0.997, 0.376, 0.424),
-             Color.hsl(272, 0.996, 0.340, 0.695),
-             Color.hsl(272, 0.997, 0.320, 0.730),
-             Color.hsl(272, 0.998, 0.297, 0.773),
-             Color.hsl(272, 0.992, 0.113, 0.946),
-        )
-    /** [Radix Colors] Collection: purpleDark */
-    @JVMStatic
-    val purpleDark =
-        listOf(
-              Color.hsl(284, 0.200, 0.096),
-              Color.hsl(283, 0.300, 0.118),
-              Color.hsl(281, 0.375, 0.165),
-              Color.hsl(280, 0.412, 0.200),
-              Color.hsl(279, 0.438, 0.233),
-              Color.hsl(277, 0.464, 0.275),
-              Color.hsl(275, 0.493, 0.346),
-              Color.hsl(272, 0.521, 0.459),
-              Color.hsl(272, 0.510, 0.540),
-              Color.hsl(273, 0.573, 0.591),
-              Color.hsl(275, 0.800, 0.710),
-              Color.hsl(279, 0.750, 0.957),
-        )
-    /** [Radix Colors] Collection: purpleDarkA */
-    @JVMStatic
-    val purpleDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(280, 0.965, 0.575, 0.045),
-             Color.hsl(279, 0.987, 0.628, 0.129),
-             Color.hsl(279, 0.991, 0.640, 0.191),
-             Color.hsl(278, 0.998, 0.642, 0.248),
-             Color.hsl(276, 0.996, 0.646, 0.328),
-             Color.hsl(274, 0.999, 0.646, 0.456),
-             Color.hsl(272, 0.997, 0.646, 0.660),
-             Color.hsl(272, 0.999, 0.691, 0.748),
-             Color.hsl(273, 1.000, 0.713, 0.801),
-             Color.hsl(275, 0.999, 0.753, 0.934),
-             Color.hsl(286, 1.000, 0.971, 0.980),
-        )
-    /** [Radix Colors] Collection: red */
-    @JVMStatic
-    val red =
-        listOf(
-              Color.hsl(359, 1.000, 0.994),
-              Color.hsl(359, 1.000, 0.986),
-              Color.hsl(360, 1.000, 0.968),
-              Color.hsl(360, 0.979, 0.948),
-              Color.hsl(360, 0.902, 0.919),
-              Color.hsl(360, 0.817, 0.878),
-              Color.hsl(359, 0.742, 0.817),
-              Color.hsl(359, 0.695, 0.743),
-              Color.hsl(358, 0.750, 0.590),
-              Color.hsl(358, 0.694, 0.552),
-              Color.hsl(358, 0.650, 0.487),
-              Color.hsl(354, 0.500, 0.146),
-        )
-    /** [Radix Colors] Collection: redA */
-    @JVMStatic
-    val redA =
-        listOf(
-             Color.hsl(0, 1.000, 0.510, 0.012),
-             Color.hsl(0, 1.000, 0.510, 0.032),
-             Color.hsl(0, 1.000, 0.502, 0.063),
-             Color.hsl(0, 1.000, 0.500, 0.102),
-             Color.hsl(0, 0.999, 0.475, 0.153),
-             Color.hsl(0, 0.995, 0.449, 0.224),
-             Color.hsl(359, 0.997, 0.427, 0.318),
-             Color.hsl(359, 0.996, 0.411, 0.436),
-             Color.hsl(358, 0.999, 0.429, 0.718),
-             Color.hsl(358, 0.999, 0.410, 0.761),
-             Color.hsl(358, 0.998, 0.383, 0.832),
-             Color.hsl(355, 0.993, 0.079, 0.926),
-        )
-    /** [Radix Colors] Collection: redDark */
-    @JVMStatic
-    val redDark =
-        listOf(
-              Color.hsl(353, 0.230, 0.098),
-              Color.hsl(357, 0.344, 0.120),
-              Color.hsl(356, 0.434, 0.164),
-              Color.hsl(356, 0.476, 0.192),
-              Color.hsl(356, 0.511, 0.219),
-              Color.hsl(356, 0.552, 0.259),
-              Color.hsl(357, 0.602, 0.318),
-              Color.hsl(358, 0.650, 0.404),
-              Color.hsl(358, 0.750, 0.590),
-              Color.hsl(358, 0.853, 0.640),
-              Color.hsl(358, 1.000, 0.695),
-              Color.hsl(351, 0.890, 0.960),
-        )
-    /** [Radix Colors] Collection: redDarkA */
-    @JVMStatic
-    val redDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(5, 0.985, 0.538, 0.045),
-             Color.hsl(359, 0.991, 0.611, 0.130),
-             Color.hsl(358, 0.988, 0.610, 0.184),
-             Color.hsl(357, 0.996, 0.603, 0.237),
-             Color.hsl(358, 0.996, 0.603, 0.322),
-             Color.hsl(357, 1.000, 0.595, 0.442),
-             Color.hsl(358, 0.998, 0.591, 0.621),
-             Color.hsl(358, 1.000, 0.655, 0.884),
-             Color.hsl(358, 1.000, 0.675, 0.942),
-             Color.hsl(358, 1.000, 0.697, 0.980),
-             Color.hsl(352, 1.000, 0.971, 0.980),
-        )
-    /** [Radix Colors] Collection: sage */
-    @JVMStatic
-    val sage =
-        listOf(
-              Color.hsl(155, 0.300, 0.988),
-              Color.hsl(150, 0.167, 0.976),
-              Color.hsl(151, 0.106, 0.952),
-              Color.hsl(151, 0.088, 0.930),
-              Color.hsl(151, 0.078, 0.908),
-              Color.hsl(152, 0.072, 0.884),
-              Color.hsl(153, 0.067, 0.853),
-              Color.hsl(154, 0.061, 0.775),
-              Color.hsl(155, 0.035, 0.555),
-              Color.hsl(154, 0.028, 0.517),
-              Color.hsl(155, 0.030, 0.430),
-              Color.hsl(155, 0.240, 0.090),
-        )
-    /** [Radix Colors] Collection: sageA */
-    @JVMStatic
-    val sageA =
-        listOf(
-             Color.hsl(150, 0.926, 0.265, 0.016),
-             Color.hsl(150, 0.877, 0.160, 0.028),
-             Color.hsl(160, 0.984, 0.109, 0.055),
-             Color.hsl(140, 0.923, 0.085, 0.075),
-             Color.hsl(160, 0.860, 0.069, 0.099),
-             Color.hsl(156, 0.951, 0.082, 0.126),
-             Color.hsl(156, 0.986, 0.063, 0.157),
-             Color.hsl(154, 0.946, 0.060, 0.240),
-             Color.hsl(154, 0.987, 0.030, 0.459),
-             Color.hsl(154, 0.935, 0.029, 0.499),
-             Color.hsl(154, 0.952, 0.025, 0.585),
-             Color.hsl(158, 0.970, 0.024, 0.934),
-        )
-    /** [Radix Colors] Collection: sageDark */
-    @JVMStatic
-    val sageDark =
-        listOf(
-              Color.hsl(155, 0.070, 0.084),
-              Color.hsl(150, 0.074, 0.106),
-              Color.hsl(150, 0.067, 0.131),
-              Color.hsl(150, 0.064, 0.153),
-              Color.hsl(150, 0.061, 0.174),
-              Color.hsl(150, 0.058, 0.199),
-              Color.hsl(150, 0.055, 0.236),
-              Color.hsl(150, 0.051, 0.306),
-              Color.hsl(155, 0.060, 0.425),
-              Color.hsl(153, 0.048, 0.482),
-              Color.hsl(155, 0.050, 0.618),
-              Color.hsl(155, 0.060, 0.930),
-        )
-    /** [Radix Colors] Collection: sageDarkA */
-    @JVMStatic
-    val sageDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(123, 0.944, 0.914, 0.026),
-             Color.hsl(123, 0.829, 0.910, 0.057),
-             Color.hsl(124, 0.979, 0.945, 0.082),
-             Color.hsl(125, 0.900, 0.952, 0.104),
-             Color.hsl(142, 0.951, 0.948, 0.134),
-             Color.hsl(143, 0.928, 0.957, 0.173),
-             Color.hsl(146, 0.947, 0.953, 0.255),
-             Color.hsl(151, 0.982, 0.944, 0.397),
-             Color.hsl(148, 0.995, 0.955, 0.457),
-             Color.hsl(152, 0.951, 0.973, 0.600),
-             Color.hsl(149, 0.933, 0.996, 0.927),
-        )
-    /** [Radix Colors] Collection: sand */
-    @JVMStatic
-    val sand =
-        listOf(
-              Color.hsl(50, 0.200, 0.990),
-              Color.hsl(60, 0.077, 0.975),
-              Color.hsl(59, 0.065, 0.951),
-              Color.hsl(58, 0.061, 0.929),
-              Color.hsl(57, 0.060, 0.907),
-              Color.hsl(56, 0.059, 0.884),
-              Color.hsl(55, 0.059, 0.852),
-              Color.hsl(51, 0.060, 0.771),
-              Color.hsl(50, 0.020, 0.557),
-              Color.hsl(55, 0.017, 0.519),
-              Color.hsl(50, 0.020, 0.431),
-              Color.hsl(50, 0.060, 0.100),
-        )
-    /** [Radix Colors] Collection: sandA */
-    @JVMStatic
-    val sandA =
-        listOf(
-             Color.hsl(60, 0.893, 0.183, 0.012),
-             Color.hsl(60, 0.781, 0.090, 0.028),
-             Color.hsl(60, 0.990, 0.039, 0.051),
-             Color.hsl(60, 0.889, 0.059, 0.075),
-             Color.hsl(60, 0.860, 0.069, 0.099),
-             Color.hsl(60, 0.932, 0.052, 0.122),
-             Color.hsl(60, 0.983, 0.051, 0.157),
-             Color.hsl(51, 0.941, 0.060, 0.244),
-             Color.hsl(60, 0.998, 0.017, 0.451),
-             Color.hsl(60, 0.907, 0.018, 0.491),
-             Color.hsl(45, 0.937, 0.015, 0.577),
-             Color.hsl(60, 0.980, 0.007, 0.906),
-        )
-    /** [Radix Colors] Collection: sandDark */
-    @JVMStatic
-    val sandDark =
-        listOf(
-              Color.hsl(61, 0.020, 0.083),
-              Color.hsl(60, 0.037, 0.106),
-              Color.hsl(58, 0.037, 0.131),
-              Color.hsl(57, 0.036, 0.153),
-              Color.hsl(56, 0.037, 0.174),
-              Color.hsl(55, 0.037, 0.199),
-              Color.hsl(53, 0.037, 0.236),
-              Color.hsl(50, 0.038, 0.306),
-              Color.hsl(50, 0.040, 0.427),
-              Color.hsl(52, 0.031, 0.483),
-              Color.hsl(50, 0.040, 0.618),
-              Color.hsl(56, 0.040, 0.928),
-        )
-    /** [Radix Colors] Collection: sandDarkA */
-    @JVMStatic
-    val sandDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(60, 0.898, 0.914, 0.026),
-             Color.hsl(60, 0.955, 0.925, 0.056),
-             Color.hsl(60, 0.756, 0.964, 0.078),
-             Color.hsl(60, 0.819, 0.952, 0.104),
-             Color.hsl(41, 0.876, 0.948, 0.134),
-             Color.hsl(60, 0.954, 0.962, 0.172),
-             Color.hsl(49, 0.935, 0.957, 0.254),
-             Color.hsl(52, 0.973, 0.962, 0.391),
-             Color.hsl(52, 0.978, 0.967, 0.451),
-             Color.hsl(51, 0.970, 0.978, 0.597),
-             Color.hsl(60, 0.887, 0.998, 0.923),
-        )
-    /** [Radix Colors] Collection: sky */
-    @JVMStatic
-    val sky =
-        listOf(
-              Color.hsl(193, 1.000, 0.988),
-              Color.hsl(193, 1.000, 0.973),
-              Color.hsl(193, 0.990, 0.947),
-              Color.hsl(193, 0.914, 0.914),
-              Color.hsl(194, 0.820, 0.866),
-              Color.hsl(194, 0.741, 0.795),
-              Color.hsl(194, 0.723, 0.696),
-              Color.hsl(193, 0.779, 0.539),
-              Color.hsl(193, 0.980, 0.700),
-              Color.hsl(193, 0.870, 0.665),
-              Color.hsl(195, 1.000, 0.315),
-              Color.hsl(195, 1.000, 0.130),
-        )
-    /** [Radix Colors] Collection: skyA */
-    @JVMStatic
-    val skyA =
-        listOf(
-             Color.hsl(190, 1.000, 0.510, 0.024),
-             Color.hsl(193, 1.000, 0.501, 0.055),
-             Color.hsl(193, 1.000, 0.501, 0.106),
-             Color.hsl(194, 0.996, 0.477, 0.165),
-             Color.hsl(194, 0.992, 0.454, 0.244),
-             Color.hsl(194, 0.999, 0.423, 0.357),
-             Color.hsl(194, 0.998, 0.422, 0.526),
-             Color.hsl(193, 0.999, 0.438, 0.820),
-             Color.hsl(193, 0.997, 0.494, 0.593),
-             Color.hsl(193, 0.998, 0.466, 0.628),
-             Color.hsl(196, 1.000, 0.312, 0.980),
-             Color.hsl(196, 1.000, 0.122, 0.980),
-        )
-    /** [Radix Colors] Collection: skyDark */
-    @JVMStatic
-    val skyDark =
-        listOf(
-              Color.hsl(205, 0.450, 0.086),
-              Color.hsl(202, 0.714, 0.096),
-              Color.hsl(201, 0.746, 0.122),
-              Color.hsl(201, 0.774, 0.144),
-              Color.hsl(200, 0.803, 0.165),
-              Color.hsl(200, 0.841, 0.189),
-              Color.hsl(199, 0.902, 0.221),
-              Color.hsl(198, 1.000, 0.261),
-              Color.hsl(193, 0.980, 0.700),
-              Color.hsl(192, 1.000, 0.770),
-              Color.hsl(192, 0.850, 0.558),
-              Color.hsl(198, 0.980, 0.958),
-        )
-    /** [Radix Colors] Collection: skyDarkA */
-    @JVMStatic
-    val skyDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(208, 1.000, 0.498, 0.045),
-             Color.hsl(201, 1.000, 0.498, 0.099),
-             Color.hsl(201, 1.000, 0.500, 0.148),
-             Color.hsl(200, 1.000, 0.498, 0.198),
-             Color.hsl(199, 1.000, 0.499, 0.256),
-             Color.hsl(199, 1.000, 0.499, 0.337),
-             Color.hsl(199, 1.000, 0.500, 0.453),
-             Color.hsl(192, 1.000, 0.708, 0.980),
-             Color.hsl(190, 1.000, 0.776, 0.980),
-             Color.hsl(192, 0.999, 0.596, 0.924),
-             Color.hsl(189, 1.000, 0.968, 0.980),
-        )
-    /** [Radix Colors] Collection: slate */
-    @JVMStatic
-    val slate =
-        listOf(
-              Color.hsl(206, 0.300, 0.988),
-              Color.hsl(210, 0.167, 0.976),
-              Color.hsl(209, 0.133, 0.953),
-              Color.hsl(209, 0.122, 0.932),
-              Color.hsl(208, 0.117, 0.911),
-              Color.hsl(208, 0.113, 0.889),
-              Color.hsl(207, 0.111, 0.859),
-              Color.hsl(205, 0.107, 0.780),
-              Color.hsl(206, 0.060, 0.561),
-              Color.hsl(206, 0.058, 0.523),
-              Color.hsl(206, 0.060, 0.435),
-              Color.hsl(206, 0.240, 0.090),
-        )
-    /** [Radix Colors] Collection: slateA */
-    @JVMStatic
-    val slateA =
-        listOf(
-             Color.hsl(210, 0.926, 0.265, 0.016),
-             Color.hsl(210, 0.877, 0.160, 0.028),
-             Color.hsl(210, 0.988, 0.144, 0.055),
-             Color.hsl(210, 0.941, 0.111, 0.075),
-             Color.hsl(216, 0.911, 0.109, 0.099),
-             Color.hsl(206, 0.964, 0.113, 0.126),
-             Color.hsl(210, 0.991, 0.101, 0.157),
-             Color.hsl(205, 0.965, 0.100, 0.244),
-             Color.hsl(206, 0.988, 0.059, 0.467),
-             Color.hsl(206, 0.996, 0.054, 0.506),
-             Color.hsl(206, 0.970, 0.048, 0.593),
-             Color.hsl(202, 0.970, 0.024, 0.934),
-        )
-    /** [Radix Colors] Collection: slateDark */
-    @JVMStatic
-    val slateDark =
-        listOf(
-              Color.hsl(200, 0.070, 0.088),
-              Color.hsl(195, 0.071, 0.110),
-              Color.hsl(197, 0.068, 0.136),
-              Color.hsl(198, 0.066, 0.158),
-              Color.hsl(199, 0.064, 0.179),
-              Color.hsl(201, 0.062, 0.205),
-              Color.hsl(203, 0.060, 0.243),
-              Color.hsl(207, 0.056, 0.316),
-              Color.hsl(206, 0.060, 0.439),
-              Color.hsl(206, 0.052, 0.495),
-              Color.hsl(206, 0.060, 0.630),
-              Color.hsl(210, 0.060, 0.930),
-        )
-    /** [Radix Colors] Collection: slateDarkA */
-    @JVMStatic
-    val slateDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(181, 0.989, 0.918, 0.026),
-             Color.hsl(182, 0.867, 0.914, 0.057),
-             Color.hsl(209, 0.867, 0.939, 0.083),
-             Color.hsl(200, 0.903, 0.934, 0.109),
-             Color.hsl(209, 0.953, 0.935, 0.139),
-             Color.hsl(204, 0.985, 0.939, 0.182),
-             Color.hsl(209, 0.940, 0.947, 0.265),
-             Color.hsl(207, 0.973, 0.940, 0.412),
-             Color.hsl(209, 0.994, 0.952, 0.472),
-             Color.hsl(208, 0.987, 0.968, 0.615),
-             Color.hsl(211, 0.867, 0.996, 0.927),
-        )
-    /** [Radix Colors] Collection: teal */
-    @JVMStatic
-    val teal =
-        listOf(
-              Color.hsl(165, 0.600, 0.988),
-              Color.hsl(169, 0.647, 0.967),
-              Color.hsl(169, 0.598, 0.940),
-              Color.hsl(169, 0.531, 0.902),
-              Color.hsl(170, 0.471, 0.850),
-              Color.hsl(170, 0.426, 0.779),
-              Color.hsl(170, 0.399, 0.681),
-              Color.hsl(172, 0.421, 0.525),
-              Color.hsl(173, 0.800, 0.360),
-              Color.hsl(173, 0.834, 0.325),
-              Color.hsl(174, 0.900, 0.252),
-              Color.hsl(170, 0.500, 0.125),
-        )
-    /** [Radix Colors] Collection: tealA */
-    @JVMStatic
-    val tealA =
-        listOf(
-             Color.hsl(165, 0.952, 0.412, 0.020),
-             Color.hsl(169, 0.995, 0.394, 0.055),
-             Color.hsl(167, 0.976, 0.381, 0.095),
-             Color.hsl(168, 0.981, 0.346, 0.150),
-             Color.hsl(170, 0.994, 0.323, 0.220),
-             Color.hsl(170, 0.997, 0.301, 0.314),
-             Color.hsl(170, 0.993, 0.287, 0.448),
-             Color.hsl(172, 0.998, 0.297, 0.675),
-             Color.hsl(173, 0.998, 0.311, 0.930),
-             Color.hsl(173, 0.997, 0.287, 0.946),
-             Color.hsl(174, 0.998, 0.233, 0.977),
-             Color.hsl(171, 0.988, 0.068, 0.938),
-        )
-    /** [Radix Colors] Collection: tealDark */
-    @JVMStatic
-    val tealDark =
-        listOf(
-              Color.hsl(168, 0.480, 0.065),
-              Color.hsl(169, 0.778, 0.071),
-              Color.hsl(170, 0.761, 0.092),
-              Color.hsl(171, 0.758, 0.110),
-              Color.hsl(171, 0.757, 0.128),
-              Color.hsl(172, 0.758, 0.151),
-              Color.hsl(172, 0.767, 0.186),
-              Color.hsl(173, 0.802, 0.237),
-              Color.hsl(173, 0.800, 0.360),
-              Color.hsl(174, 0.839, 0.382),
-              Color.hsl(174, 0.900, 0.407),
-              Color.hsl(166, 0.730, 0.931),
-        )
-    /** [Radix Colors] Collection: tealDarkA */
-    @JVMStatic
-    val tealDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(171, 1.000, 0.492, 0.031),
-             Color.hsl(172, 1.000, 0.497, 0.070),
-             Color.hsl(175, 1.000, 0.497, 0.105),
-             Color.hsl(174, 0.989, 0.501, 0.140),
-             Color.hsl(174, 1.000, 0.518, 0.187),
-             Color.hsl(173, 0.996, 0.532, 0.257),
-             Color.hsl(174, 0.996, 0.533, 0.366),
-             Color.hsl(173, 0.999, 0.546, 0.609),
-             Color.hsl(174, 0.999, 0.538, 0.670),
-             Color.hsl(174, 1.000, 0.520, 0.748),
-             Color.hsl(166, 0.986, 0.950, 0.979),
-        )
-    /** [Radix Colors] Collection: tomato */
-    @JVMStatic
-    val tomato =
-        listOf(
-              Color.hsl(10, 1.000, 0.994),
-              Color.hsl(8, 1.000, 0.984),
-              Color.hsl(8, 1.000, 0.966),
-              Color.hsl(8, 1.000, 0.943),
-              Color.hsl(8, 0.928, 0.910),
-              Color.hsl(9, 0.847, 0.863),
-              Color.hsl(10, 0.773, 0.795),
-              Color.hsl(10, 0.716, 0.710),
-              Color.hsl(10, 0.780, 0.540),
-              Color.hsl(10, 0.715, 0.500),
-              Color.hsl(10, 0.820, 0.435),
-              Color.hsl(10, 0.500, 0.135),
-        )
-    /** [Radix Colors] Collection: tomatoA */
-    @JVMStatic
-    val tomatoA =
-        listOf(
-             Color.hsl(0, 1.000, 0.510, 0.012),
-             Color.hsl(8, 1.000, 0.510, 0.032),
-             Color.hsl(7, 1.000, 0.502, 0.067),
-             Color.hsl(8, 1.000, 0.501, 0.114),
-             Color.hsl(7, 0.995, 0.479, 0.173),
-             Color.hsl(9, 0.999, 0.462, 0.255),
-             Color.hsl(10, 0.998, 0.436, 0.365),
-             Color.hsl(10, 0.995, 0.418, 0.499),
-             Color.hsl(10, 0.999, 0.438, 0.820),
-             Color.hsl(10, 1.000, 0.418, 0.859),
-             Color.hsl(10, 0.999, 0.388, 0.922),
-             Color.hsl(10, 0.990, 0.074, 0.934),
-        )
-    /** [Radix Colors] Collection: tomatoDark */
-    @JVMStatic
-    val tomatoDark =
-        listOf(
-              Color.hsl(10, 0.230, 0.094),
-              Color.hsl(9, 0.448, 0.114),
-              Color.hsl(8, 0.520, 0.153),
-              Color.hsl(7, 0.563, 0.180),
-              Color.hsl(7, 0.601, 0.206),
-              Color.hsl(8, 0.648, 0.240),
-              Color.hsl(8, 0.712, 0.291),
-              Color.hsl(10, 0.802, 0.357),
-              Color.hsl(10, 0.780, 0.540),
-              Color.hsl(10, 0.817, 0.590),
-              Color.hsl(10, 0.850, 0.628),
-              Color.hsl(10, 0.890, 0.960),
-        )
-    /** [Radix Colors] Collection: tomatoDarkA */
-    @JVMStatic
-    val tomatoDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(5, 1.000, 0.496, 0.058),
-             Color.hsl(6, 0.996, 0.549, 0.133),
-             Color.hsl(6, 0.992, 0.554, 0.191),
-             Color.hsl(6, 0.995, 0.558, 0.244),
-             Color.hsl(7, 0.997, 0.559, 0.319),
-             Color.hsl(8, 0.998, 0.548, 0.434),
-             Color.hsl(10, 0.998, 0.535, 0.598),
-             Color.hsl(10, 1.000, 0.597, 0.885),
-             Color.hsl(10, 1.000, 0.636, 0.916),
-             Color.hsl(10, 0.997, 0.664, 0.939),
-             Color.hsl(12, 1.000, 0.971, 0.980),
-        )
-    /** [Radix Colors] Collection: violet */
-    @JVMStatic
-    val violet =
-        listOf(
-              Color.hsl(255, 0.650, 0.994),
-              Color.hsl(252, 1.000, 0.990),
-              Color.hsl(252, 0.969, 0.974),
-              Color.hsl(252, 0.915, 0.955),
-              Color.hsl(252, 0.851, 0.930),
-              Color.hsl(252, 0.778, 0.894),
-              Color.hsl(252, 0.710, 0.837),
-              Color.hsl(252, 0.686, 0.763),
-              Color.hsl(252, 0.560, 0.575),
-              Color.hsl(251, 0.481, 0.535),
-              Color.hsl(250, 0.430, 0.480),
-              Color.hsl(254, 0.600, 0.185),
-        )
-    /** [Radix Colors] Collection: violetA */
-    @JVMStatic
-    val violetA =
-        listOf(
-             Color.hsl(270, 0.943, 0.346, 0.012),
-             Color.hsl(252, 1.000, 0.510, 0.020),
-             Color.hsl(254, 1.000, 0.500, 0.051),
-             Color.hsl(251, 0.983, 0.482, 0.087),
-             Color.hsl(252, 0.990, 0.457, 0.130),
-             Color.hsl(251, 0.991, 0.440, 0.189),
-             Color.hsl(252, 0.995, 0.417, 0.279),
-             Color.hsl(252, 1.000, 0.407, 0.400),
-             Color.hsl(252, 0.999, 0.358, 0.663),
-             Color.hsl(251, 0.996, 0.325, 0.691),
-             Color.hsl(250, 0.998, 0.284, 0.726),
-             Color.hsl(254, 0.995, 0.119, 0.926),
-        )
-    /** [Radix Colors] Collection: violetDark */
-    @JVMStatic
-    val violetDark =
-        listOf(
-              Color.hsl(250, 0.200, 0.102),
-              Color.hsl(255, 0.303, 0.129),
-              Color.hsl(253, 0.370, 0.184),
-              Color.hsl(252, 0.401, 0.225),
-              Color.hsl(252, 0.422, 0.262),
-              Color.hsl(251, 0.443, 0.311),
-              Color.hsl(250, 0.468, 0.389),
-              Color.hsl(250, 0.518, 0.512),
-              Color.hsl(252, 0.560, 0.575),
-              Color.hsl(251, 0.632, 0.632),
-              Color.hsl(250, 0.950, 0.768),
-              Color.hsl(252, 0.870, 0.964),
-        )
-    /** [Radix Colors] Collection: violetDarkA */
-    @JVMStatic
-    val violetDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(258, 0.982, 0.610, 0.054),
-             Color.hsl(252, 0.988, 0.658, 0.148),
-             Color.hsl(253, 0.997, 0.657, 0.219),
-             Color.hsl(252, 0.997, 0.664, 0.286),
-             Color.hsl(251, 0.997, 0.662, 0.371),
-             Color.hsl(250, 0.997, 0.663, 0.514),
-             Color.hsl(250, 0.997, 0.661, 0.733),
-             Color.hsl(252, 0.999, 0.703, 0.786),
-             Color.hsl(251, 0.999, 0.729, 0.844),
-             Color.hsl(250, 1.000, 0.779, 0.980),
-             Color.hsl(254, 1.000, 0.975, 0.980),
-        )
-    /** [Radix Colors] Collection: whiteA */
-    @JVMStatic
-    val whiteA =
-        listOf(
-             Color.hsl(0, 0.000, 1.000, 0.000),
-             Color.hsl(0, 0.000, 1.000, 0.013),
-             Color.hsl(0, 0.000, 1.000, 0.034),
-             Color.hsl(0, 0.000, 1.000, 0.056),
-             Color.hsl(0, 0.000, 1.000, 0.086),
-             Color.hsl(0, 0.000, 1.000, 0.124),
-             Color.hsl(0, 0.000, 1.000, 0.176),
-             Color.hsl(0, 0.000, 1.000, 0.249),
-             Color.hsl(0, 0.000, 1.000, 0.386),
-             Color.hsl(0, 0.000, 1.000, 0.446),
-             Color.hsl(0, 0.000, 1.000, 0.592),
-             Color.hsl(0, 0.000, 1.000, 0.923),
-        )
-    /** [Radix Colors] Collection: yellow */
-    @JVMStatic
-    val yellow =
-        listOf(
-              Color.hsl(60, 0.540, 0.985),
-              Color.hsl(52, 1.000, 0.955),
-              Color.hsl(55, 1.000, 0.909),
-              Color.hsl(54, 1.000, 0.866),
-              Color.hsl(52, 0.979, 0.820),
-              Color.hsl(50, 0.894, 0.761),
-              Color.hsl(47, 0.804, 0.680),
-              Color.hsl(48, 1.000, 0.461),
-              Color.hsl(53, 0.920, 0.500),
-              Color.hsl(50, 1.000, 0.485),
-              Color.hsl(42, 1.000, 0.290),
-              Color.hsl(40, 0.550, 0.135),
-        )
-    /** [Radix Colors] Collection: yellowA */
-    @JVMStatic
-    val yellowA =
-        listOf(
-             Color.hsl(60, 0.943, 0.346, 0.024),
-             Color.hsl(52, 1.000, 0.504, 0.091),
-             Color.hsl(55, 1.000, 0.502, 0.181),
-             Color.hsl(54, 1.000, 0.501, 0.267),
-             Color.hsl(52, 0.999, 0.495, 0.357),
-             Color.hsl(50, 1.000, 0.474, 0.451),
-             Color.hsl(47, 0.998, 0.446, 0.577),
-             Color.hsl(48, 1.000, 0.460, 0.980),
-             Color.hsl(53, 1.000, 0.480, 0.961),
-             Color.hsl(50, 1.000, 0.484, 0.980),
-             Color.hsl(42, 1.000, 0.286, 0.980),
-             Color.hsl(41, 0.989, 0.080, 0.942),
-        )
-    /** [Radix Colors] Collection: yellowDark */
-    @JVMStatic
-    val yellowDark =
-        listOf(
-              Color.hsl(45, 1.000, 0.055),
-              Color.hsl(46, 1.000, 0.067),
-              Color.hsl(45, 1.000, 0.087),
-              Color.hsl(45, 1.000, 0.104),
-              Color.hsl(47, 1.000, 0.121),
-              Color.hsl(49, 1.000, 0.143),
-              Color.hsl(49, 0.903, 0.184),
-              Color.hsl(50, 1.000, 0.220),
-              Color.hsl(53, 0.920, 0.500),
-              Color.hsl(54, 1.000, 0.680),
-              Color.hsl(48, 1.000, 0.470),
-              Color.hsl(53, 1.000, 0.910),
-        )
-    /** [Radix Colors] Collection: yellowDarkA */
-    @JVMStatic
-    val yellowDarkA =
-        listOf(
-             Color.hsl(0, 0.000, 0.000, 0.000),
-             Color.hsl(49, 1.000, 0.491, 0.027),
-             Color.hsl(45, 1.000, 0.497, 0.071),
-             Color.hsl(46, 1.000, 0.497, 0.111),
-             Color.hsl(47, 1.000, 0.499, 0.150),
-             Color.hsl(51, 1.000, 0.498, 0.199),
-             Color.hsl(51, 0.998, 0.536, 0.269),
-             Color.hsl(51, 1.000, 0.499, 0.371),
-             Color.hsl(53, 1.000, 0.520, 0.956),
-             Color.hsl(56, 1.000, 0.684, 0.980),
-             Color.hsl(48, 1.000, 0.500, 0.934),
-             Color.hsl(60, 1.000, 0.918, 0.980),
-        )
+  /** [Radix Colors] Collection: amber */
+  val amber =
+      listOf(
+          Color.hsl(39f, 0.700f, 0.990f),
+          Color.hsl(40f, 1.000f, 0.965f),
+          Color.hsl(44f, 1.000f, 0.917f),
+          Color.hsl(43f, 1.000f, 0.868f),
+          Color.hsl(42f, 1.000f, 0.818f),
+          Color.hsl(38f, 0.997f, 0.763f),
+          Color.hsl(36f, 0.861f, 0.671f),
+          Color.hsl(35f, 0.852f, 0.551f),
+          Color.hsl(39f, 1.000f, 0.570f),
+          Color.hsl(35f, 1.000f, 0.555f),
+          Color.hsl(30f, 1.000f, 0.340f),
+          Color.hsl(20f, 0.800f, 0.170f),
+      )
+  /** [Radix Colors] Collection: amberA */
+  val amberA =
+      listOf(
+          Color.hsl(40f, 0.949f, 0.387f, 0.016f),
+          Color.hsl(40f, 1.000f, 0.503f, 0.071f),
+          Color.hsl(44f, 1.000f, 0.501f, 0.165f),
+          Color.hsl(43f, 1.000f, 0.500f, 0.263f),
+          Color.hsl(42f, 1.000f, 0.500f, 0.365f),
+          Color.hsl(38f, 1.000f, 0.501f, 0.475f),
+          Color.hsl(36f, 0.999f, 0.462f, 0.612f),
+          Color.hsl(35f, 0.998f, 0.460f, 0.832f),
+          Color.hsl(39f, 1.000f, 0.500f, 0.859f),
+          Color.hsl(35f, 1.000f, 0.500f, 0.891f),
+          Color.hsl(29f, 1.000f, 0.336f, 0.980f),
+          Color.hsl(20f, 0.998f, 0.141f, 0.965f),
+      )
+  /** [Radix Colors] Collection: amberDark */
+  val amberDark =
+      listOf(
+          Color.hsl(36f, 1.000f, 0.061f),
+          Color.hsl(35f, 1.000f, 0.076f),
+          Color.hsl(32f, 1.000f, 0.102f),
+          Color.hsl(32f, 1.000f, 0.124f),
+          Color.hsl(33f, 1.000f, 0.146f),
+          Color.hsl(35f, 1.000f, 0.171f),
+          Color.hsl(35f, 0.910f, 0.216f),
+          Color.hsl(36f, 1.000f, 0.255f),
+          Color.hsl(39f, 1.000f, 0.570f),
+          Color.hsl(43f, 1.000f, 0.640f),
+          Color.hsl(39f, 0.900f, 0.498f),
+          Color.hsl(39f, 0.970f, 0.932f),
+      )
+  /** [Radix Colors] Collection: amberDarkA */
+  val amberDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(31f, 1.000f, 0.497f, 0.036f),
+          Color.hsl(27f, 1.000f, 0.499f, 0.094f),
+          Color.hsl(29f, 1.000f, 0.500f, 0.143f),
+          Color.hsl(31f, 1.000f, 0.500f, 0.192f),
+          Color.hsl(35f, 1.000f, 0.500f, 0.250f),
+          Color.hsl(34f, 0.996f, 0.529f, 0.331f),
+          Color.hsl(36f, 1.000f, 0.500f, 0.442f),
+          Color.hsl(40f, 1.000f, 0.572f, 0.980f),
+          Color.hsl(44f, 1.000f, 0.642f, 0.980f),
+          Color.hsl(39f, 0.999f, 0.527f, 0.938f),
+          Color.hsl(45f, 1.000f, 0.942f, 0.980f),
+      )
+  /** [Radix Colors] Collection: blackA */
+  val blackA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.012f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.027f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.047f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.071f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.090f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.114f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.141f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.220f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.439f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.478f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.565f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.910f),
+      )
+  /** [Radix Colors] Collection: blue */
+  val blue =
+      listOf(
+          Color.hsl(206f, 1.000f, 0.992f),
+          Color.hsl(210f, 1.000f, 0.980f),
+          Color.hsl(209f, 1.000f, 0.965f),
+          Color.hsl(210f, 0.988f, 0.940f),
+          Color.hsl(209f, 0.950f, 0.901f),
+          Color.hsl(209f, 0.812f, 0.845f),
+          Color.hsl(208f, 0.775f, 0.769f),
+          Color.hsl(206f, 0.819f, 0.653f),
+          Color.hsl(206f, 1.000f, 0.500f),
+          Color.hsl(208f, 1.000f, 0.473f),
+          Color.hsl(211f, 1.000f, 0.432f),
+          Color.hsl(211f, 1.000f, 0.150f),
+      )
+  /** [Radix Colors] Collection: blueA */
+  val blueA =
+      listOf(
+          Color.hsl(210f, 1.000f, 0.510f, 0.016f),
+          Color.hsl(210f, 1.000f, 0.510f, 0.040f),
+          Color.hsl(210f, 1.000f, 0.503f, 0.071f),
+          Color.hsl(210f, 1.000f, 0.501f, 0.118f),
+          Color.hsl(208f, 0.991f, 0.471f, 0.189f),
+          Color.hsl(209f, 0.995f, 0.453f, 0.283f),
+          Color.hsl(208f, 0.999f, 0.438f, 0.412f),
+          Color.hsl(206f, 0.998f, 0.451f, 0.632f),
+          Color.hsl(206f, 1.000f, 0.500f, 0.980f),
+          Color.hsl(208f, 1.000f, 0.472f, 0.980f),
+          Color.hsl(212f, 1.000f, 0.430f, 0.980f),
+          Color.hsl(213f, 1.000f, 0.144f, 0.980f),
+      )
+  /** [Radix Colors] Collection: blueDark */
+  val blueDark =
+      listOf(
+          Color.hsl(212f, 0.350f, 0.092f),
+          Color.hsl(216f, 0.500f, 0.118f),
+          Color.hsl(214f, 0.594f, 0.153f),
+          Color.hsl(214f, 0.658f, 0.179f),
+          Color.hsl(213f, 0.712f, 0.202f),
+          Color.hsl(212f, 0.774f, 0.231f),
+          Color.hsl(211f, 0.851f, 0.274f),
+          Color.hsl(211f, 0.897f, 0.341f),
+          Color.hsl(206f, 1.000f, 0.500f),
+          Color.hsl(209f, 1.000f, 0.606f),
+          Color.hsl(210f, 1.000f, 0.661f),
+          Color.hsl(206f, 0.980f, 0.958f),
+      )
+  /** [Radix Colors] Collection: blueDarkA */
+  val blueDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(221f, 0.978f, 0.524f, 0.059f),
+          Color.hsl(215f, 0.993f, 0.542f, 0.135f),
+          Color.hsl(215f, 0.993f, 0.538f, 0.198f),
+          Color.hsl(213f, 0.994f, 0.528f, 0.252f),
+          Color.hsl(212f, 0.999f, 0.517f, 0.323f),
+          Color.hsl(211f, 1.000f, 0.507f, 0.435f),
+          Color.hsl(211f, 0.998f, 0.509f, 0.597f),
+          Color.hsl(205f, 1.000f, 0.500f, 0.980f),
+          Color.hsl(208f, 1.000f, 0.607f, 0.980f),
+          Color.hsl(209f, 1.000f, 0.663f, 0.980f),
+          Color.hsl(196f, 1.000f, 0.968f, 0.980f),
+      )
+  /** [Radix Colors] Collection: bronze */
+  val bronze =
+      listOf(
+          Color.hsl(15f, 0.300f, 0.991f),
+          Color.hsl(17f, 0.636f, 0.978f),
+          Color.hsl(17f, 0.421f, 0.952f),
+          Color.hsl(17f, 0.352f, 0.921f),
+          Color.hsl(17f, 0.315f, 0.882f),
+          Color.hsl(17f, 0.290f, 0.830f),
+          Color.hsl(17f, 0.269f, 0.756f),
+          Color.hsl(17f, 0.251f, 0.665f),
+          Color.hsl(17f, 0.200f, 0.540f),
+          Color.hsl(17f, 0.181f, 0.501f),
+          Color.hsl(15f, 0.200f, 0.431f),
+          Color.hsl(12f, 0.220f, 0.215f),
+      )
+  /** [Radix Colors] Collection: bronzeA */
+  val bronzeA =
+      listOf(
+          Color.hsl(0f, 0.893f, 0.183f, 0.012f),
+          Color.hsl(17f, 0.951f, 0.401f, 0.036f),
+          Color.hsl(18f, 0.983f, 0.298f, 0.067f),
+          Color.hsl(17f, 0.996f, 0.260f, 0.106f),
+          Color.hsl(19f, 0.996f, 0.238f, 0.157f),
+          Color.hsl(17f, 0.992f, 0.225f, 0.220f),
+          Color.hsl(18f, 0.997f, 0.216f, 0.310f),
+          Color.hsl(17f, 0.995f, 0.202f, 0.420f),
+          Color.hsl(18f, 0.999f, 0.167f, 0.553f),
+          Color.hsl(17f, 0.992f, 0.154f, 0.589f),
+          Color.hsl(15f, 0.999f, 0.132f, 0.655f),
+          Color.hsl(12f, 0.987f, 0.057f, 0.832f),
+      )
+  /** [Radix Colors] Collection: bronzeDark */
+  val bronzeDark =
+      listOf(
+          Color.hsl(17f, 0.100f, 0.088f),
+          Color.hsl(15f, 0.148f, 0.106f),
+          Color.hsl(15f, 0.163f, 0.143f),
+          Color.hsl(16f, 0.171f, 0.172f),
+          Color.hsl(16f, 0.176f, 0.196f),
+          Color.hsl(16f, 0.181f, 0.229f),
+          Color.hsl(17f, 0.188f, 0.288f),
+          Color.hsl(17f, 0.196f, 0.380f),
+          Color.hsl(17f, 0.200f, 0.540f),
+          Color.hsl(18f, 0.240f, 0.590f),
+          Color.hsl(18f, 0.350f, 0.685f),
+          Color.hsl(18f, 0.570f, 0.941f),
+      )
+  /** [Radix Colors] Collection: bronzeDarkA */
+  val bronzeDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(20f, 0.882f, 0.742f, 0.027f),
+          Color.hsl(10f, 0.994f, 0.830f, 0.074f),
+          Color.hsl(18f, 0.960f, 0.811f, 0.114f),
+          Color.hsl(18f, 0.994f, 0.817f, 0.148f),
+          Color.hsl(15f, 0.981f, 0.824f, 0.192f),
+          Color.hsl(16f, 0.992f, 0.829f, 0.270f),
+          Color.hsl(18f, 0.995f, 0.826f, 0.396f),
+          Color.hsl(18f, 0.993f, 0.850f, 0.592f),
+          Color.hsl(18f, 0.996f, 0.852f, 0.657f),
+          Color.hsl(17f, 0.999f, 0.861f, 0.774f),
+          Color.hsl(20f, 0.998f, 0.964f, 0.974f),
+      )
+  /** [Radix Colors] Collection: brown */
+  val brown =
+      listOf(
+          Color.hsl(30f, 0.400f, 0.991f),
+          Color.hsl(30f, 0.500f, 0.976f),
+          Color.hsl(30f, 0.525f, 0.946f),
+          Color.hsl(30f, 0.530f, 0.912f),
+          Color.hsl(29f, 0.529f, 0.868f),
+          Color.hsl(29f, 0.525f, 0.809f),
+          Color.hsl(29f, 0.515f, 0.728f),
+          Color.hsl(28f, 0.500f, 0.631f),
+          Color.hsl(28f, 0.340f, 0.510f),
+          Color.hsl(27f, 0.318f, 0.476f),
+          Color.hsl(25f, 0.300f, 0.410f),
+          Color.hsl(20f, 0.300f, 0.190f),
+      )
+  /** [Radix Colors] Collection: brownA */
+  val brownA =
+      listOf(
+          Color.hsl(30f, 0.943f, 0.346f, 0.012f),
+          Color.hsl(30f, 0.943f, 0.346f, 0.036f),
+          Color.hsl(30f, 0.977f, 0.339f, 0.083f),
+          Color.hsl(31f, 0.985f, 0.342f, 0.134f),
+          Color.hsl(29f, 1.000f, 0.343f, 0.200f),
+          Color.hsl(28f, 0.992f, 0.346f, 0.291f),
+          Color.hsl(29f, 0.998f, 0.338f, 0.412f),
+          Color.hsl(28f, 1.000f, 0.333f, 0.553f),
+          Color.hsl(28f, 0.999f, 0.255f, 0.655f),
+          Color.hsl(27f, 0.997f, 0.224f, 0.675f),
+          Color.hsl(25f, 0.998f, 0.173f, 0.714f),
+          Color.hsl(21f, 0.994f, 0.066f, 0.867f),
+      )
+  /** [Radix Colors] Collection: brownDark */
+  val brownDark =
+      listOf(
+          Color.hsl(22f, 0.150f, 0.087f),
+          Color.hsl(20f, 0.283f, 0.104f),
+          Color.hsl(20f, 0.280f, 0.140f),
+          Color.hsl(21f, 0.284f, 0.165f),
+          Color.hsl(22f, 0.287f, 0.189f),
+          Color.hsl(23f, 0.290f, 0.223f),
+          Color.hsl(25f, 0.295f, 0.278f),
+          Color.hsl(27f, 0.301f, 0.359f),
+          Color.hsl(28f, 0.340f, 0.510f),
+          Color.hsl(28f, 0.414f, 0.558f),
+          Color.hsl(28f, 0.600f, 0.645f),
+          Color.hsl(30f, 0.670f, 0.940f),
+      )
+  /** [Radix Colors] Collection: brownDarkA */
+  val brownDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(22f, 0.996f, 0.536f, 0.035f),
+          Color.hsl(18f, 0.978f, 0.690f, 0.088f),
+          Color.hsl(21f, 0.982f, 0.710f, 0.123f),
+          Color.hsl(25f, 0.984f, 0.721f, 0.158f),
+          Color.hsl(25f, 0.987f, 0.735f, 0.206f),
+          Color.hsl(25f, 0.990f, 0.746f, 0.289f),
+          Color.hsl(28f, 0.992f, 0.753f, 0.407f),
+          Color.hsl(28f, 1.000f, 0.748f, 0.642f),
+          Color.hsl(28f, 0.999f, 0.749f, 0.712f),
+          Color.hsl(28f, 0.999f, 0.749f, 0.843f),
+          Color.hsl(32f, 0.982f, 0.957f, 0.979f),
+      )
+  /** [Radix Colors] Collection: crimson */
+  val crimson =
+      listOf(
+          Color.hsl(332f, 1.000f, 0.994f),
+          Color.hsl(330f, 1.000f, 0.984f),
+          Color.hsl(331f, 0.856f, 0.966f),
+          Color.hsl(331f, 0.781f, 0.942f),
+          Color.hsl(332f, 0.721f, 0.911f),
+          Color.hsl(333f, 0.670f, 0.867f),
+          Color.hsl(335f, 0.635f, 0.804f),
+          Color.hsl(336f, 0.623f, 0.729f),
+          Color.hsl(336f, 0.800f, 0.578f),
+          Color.hsl(336f, 0.737f, 0.535f),
+          Color.hsl(336f, 0.750f, 0.472f),
+          Color.hsl(340f, 0.650f, 0.145f),
+      )
+  /** [Radix Colors] Collection: crimsonA */
+  val crimsonA =
+      listOf(
+          Color.hsl(340f, 1.000f, 0.510f, 0.012f),
+          Color.hsl(330f, 1.000f, 0.510f, 0.032f),
+          Color.hsl(332f, 0.991f, 0.471f, 0.063f),
+          Color.hsl(331f, 0.999f, 0.443f, 0.102f),
+          Color.hsl(333f, 0.999f, 0.423f, 0.153f),
+          Color.hsl(333f, 0.995f, 0.405f, 0.224f),
+          Color.hsl(335f, 0.997f, 0.391f, 0.322f),
+          Color.hsl(336f, 0.995f, 0.385f, 0.440f),
+          Color.hsl(336f, 0.999f, 0.443f, 0.761f),
+          Color.hsl(336f, 1.000f, 0.425f, 0.808f),
+          Color.hsl(336f, 0.998f, 0.403f, 0.883f),
+          Color.hsl(340f, 0.990f, 0.100f, 0.950f),
+      )
+  /** [Radix Colors] Collection: crimsonDark */
+  val crimsonDark =
+      listOf(
+          Color.hsl(335f, 0.200f, 0.096f),
+          Color.hsl(335f, 0.322f, 0.116f),
+          Color.hsl(335f, 0.425f, 0.165f),
+          Color.hsl(335f, 0.472f, 0.193f),
+          Color.hsl(335f, 0.509f, 0.218f),
+          Color.hsl(335f, 0.557f, 0.253f),
+          Color.hsl(336f, 0.629f, 0.308f),
+          Color.hsl(336f, 0.749f, 0.390f),
+          Color.hsl(336f, 0.800f, 0.578f),
+          Color.hsl(339f, 0.841f, 0.626f),
+          Color.hsl(341f, 0.900f, 0.673f),
+          Color.hsl(332f, 0.870f, 0.960f),
+      )
+  /** [Radix Colors] Collection: crimsonDarkA */
+  val crimsonDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(336f, 0.968f, 0.532f, 0.045f),
+          Color.hsl(335f, 0.987f, 0.593f, 0.138f),
+          Color.hsl(336f, 0.991f, 0.599f, 0.191f),
+          Color.hsl(335f, 0.994f, 0.594f, 0.244f),
+          Color.hsl(335f, 0.994f, 0.594f, 0.315f),
+          Color.hsl(336f, 0.995f, 0.578f, 0.439f),
+          Color.hsl(336f, 0.999f, 0.554f, 0.642f),
+          Color.hsl(336f, 0.999f, 0.628f, 0.903f),
+          Color.hsl(339f, 0.999f, 0.663f, 0.934f),
+          Color.hsl(341f, 0.999f, 0.695f, 0.965f),
+          Color.hsl(327f, 1.000f, 0.971f, 0.980f),
+      )
+  /** [Radix Colors] Collection: cyan */
+  val cyan =
+      listOf(
+          Color.hsl(185f, 0.600f, 0.987f),
+          Color.hsl(185f, 0.733f, 0.971f),
+          Color.hsl(186f, 0.702f, 0.944f),
+          Color.hsl(186f, 0.638f, 0.906f),
+          Color.hsl(187f, 0.583f, 0.854f),
+          Color.hsl(188f, 0.546f, 0.784f),
+          Color.hsl(189f, 0.537f, 0.687f),
+          Color.hsl(189f, 0.603f, 0.525f),
+          Color.hsl(190f, 0.950f, 0.390f),
+          Color.hsl(191f, 0.912f, 0.368f),
+          Color.hsl(192f, 0.850f, 0.310f),
+          Color.hsl(192f, 0.880f, 0.125f),
+      )
+  /** [Radix Colors] Collection: cyanA */
+  val cyanA =
+      listOf(
+          Color.hsl(195f, 0.952f, 0.412f, 0.020f),
+          Color.hsl(185f, 0.999f, 0.423f, 0.051f),
+          Color.hsl(186f, 0.978f, 0.422f, 0.095f),
+          Color.hsl(186f, 0.999f, 0.385f, 0.153f),
+          Color.hsl(187f, 0.993f, 0.366f, 0.232f),
+          Color.hsl(188f, 0.994f, 0.354f, 0.334f),
+          Color.hsl(189f, 0.996f, 0.350f, 0.483f),
+          Color.hsl(189f, 0.999f, 0.376f, 0.761f),
+          Color.hsl(190f, 1.000f, 0.378f, 0.980f),
+          Color.hsl(191f, 0.999f, 0.346f, 0.969f),
+          Color.hsl(192f, 1.000f, 0.276f, 0.953f),
+          Color.hsl(192f, 1.000f, 0.110f, 0.980f),
+      )
+  /** [Radix Colors] Collection: cyanDark */
+  val cyanDark =
+      listOf(
+          Color.hsl(192f, 0.600f, 0.072f),
+          Color.hsl(192f, 0.714f, 0.082f),
+          Color.hsl(192f, 0.759f, 0.108f),
+          Color.hsl(192f, 0.793f, 0.128f),
+          Color.hsl(192f, 0.825f, 0.146f),
+          Color.hsl(192f, 0.866f, 0.169f),
+          Color.hsl(192f, 0.926f, 0.201f),
+          Color.hsl(192f, 1.000f, 0.245f),
+          Color.hsl(190f, 0.950f, 0.390f),
+          Color.hsl(188f, 1.000f, 0.400f),
+          Color.hsl(186f, 1.000f, 0.422f),
+          Color.hsl(185f, 0.730f, 0.932f),
+      )
+  /** [Radix Colors] Collection: cyanDarkA */
+  val cyanDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(196f, 1.000f, 0.500f, 0.031f),
+          Color.hsl(192f, 0.980f, 0.509f, 0.085f),
+          Color.hsl(194f, 0.996f, 0.513f, 0.133f),
+          Color.hsl(192f, 0.995f, 0.513f, 0.173f),
+          Color.hsl(193f, 0.997f, 0.504f, 0.226f),
+          Color.hsl(192f, 1.000f, 0.500f, 0.310f),
+          Color.hsl(193f, 1.000f, 0.500f, 0.425f),
+          Color.hsl(190f, 0.998f, 0.508f, 0.731f),
+          Color.hsl(188f, 1.000f, 0.500f, 0.775f),
+          Color.hsl(186f, 1.000f, 0.499f, 0.824f),
+          Color.hsl(185f, 0.998f, 0.951f, 0.978f),
+      )
+  /** [Radix Colors] Collection: gold */
+  val gold =
+      listOf(
+          Color.hsl(50f, 0.200f, 0.991f),
+          Color.hsl(47f, 0.529f, 0.967f),
+          Color.hsl(46f, 0.382f, 0.937f),
+          Color.hsl(44f, 0.327f, 0.901f),
+          Color.hsl(43f, 0.299f, 0.857f),
+          Color.hsl(41f, 0.283f, 0.798f),
+          Color.hsl(39f, 0.276f, 0.719f),
+          Color.hsl(36f, 0.272f, 0.618f),
+          Color.hsl(36f, 0.200f, 0.495f),
+          Color.hsl(36f, 0.198f, 0.457f),
+          Color.hsl(36f, 0.200f, 0.390f),
+          Color.hsl(36f, 0.160f, 0.200f),
+      )
+  /** [Radix Colors] Collection: goldA */
+  val goldA =
+      listOf(
+          Color.hsl(60f, 0.893f, 0.183f, 0.012f),
+          Color.hsl(47f, 0.999f, 0.346f, 0.051f),
+          Color.hsl(45f, 0.970f, 0.279f, 0.087f),
+          Color.hsl(46f, 0.980f, 0.254f, 0.134f),
+          Color.hsl(43f, 0.984f, 0.226f, 0.185f),
+          Color.hsl(41f, 0.997f, 0.220f, 0.259f),
+          Color.hsl(38f, 0.998f, 0.215f, 0.357f),
+          Color.hsl(36f, 0.993f, 0.215f, 0.487f),
+          Color.hsl(36f, 0.999f, 0.162f, 0.604f),
+          Color.hsl(36f, 0.992f, 0.146f, 0.636f),
+          Color.hsl(35f, 0.991f, 0.112f, 0.687f),
+          Color.hsl(38f, 0.980f, 0.038f, 0.832f),
+      )
+  /** [Radix Colors] Collection: goldDark */
+  val goldDark =
+      listOf(
+          Color.hsl(44f, 0.090f, 0.083f),
+          Color.hsl(43f, 0.143f, 0.096f),
+          Color.hsl(42f, 0.155f, 0.130f),
+          Color.hsl(41f, 0.164f, 0.156f),
+          Color.hsl(41f, 0.169f, 0.178f),
+          Color.hsl(40f, 0.176f, 0.208f),
+          Color.hsl(38f, 0.185f, 0.264f),
+          Color.hsl(36f, 0.196f, 0.351f),
+          Color.hsl(36f, 0.200f, 0.495f),
+          Color.hsl(36f, 0.223f, 0.545f),
+          Color.hsl(35f, 0.300f, 0.640f),
+          Color.hsl(49f, 0.520f, 0.938f),
+      )
+  /** [Radix Colors] Collection: goldDarkA */
+  val goldDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(40f, 0.937f, 0.706f, 0.022f),
+          Color.hsl(40f, 0.975f, 0.806f, 0.065f),
+          Color.hsl(40f, 0.959f, 0.808f, 0.100f),
+          Color.hsl(38f, 0.973f, 0.821f, 0.130f),
+          Color.hsl(39f, 0.972f, 0.825f, 0.169f),
+          Color.hsl(37f, 0.993f, 0.824f, 0.246f),
+          Color.hsl(35f, 0.987f, 0.822f, 0.363f),
+          Color.hsl(36f, 0.997f, 0.828f, 0.552f),
+          Color.hsl(35f, 0.992f, 0.837f, 0.613f),
+          Color.hsl(35f, 0.993f, 0.853f, 0.725f),
+          Color.hsl(49f, 0.986f, 0.967f, 0.966f),
+      )
+  /** [Radix Colors] Collection: grass */
+  val grass =
+      listOf(
+          Color.hsl(116f, 0.500f, 0.989f),
+          Color.hsl(120f, 0.600f, 0.971f),
+          Color.hsl(120f, 0.536f, 0.948f),
+          Color.hsl(121f, 0.475f, 0.914f),
+          Color.hsl(122f, 0.426f, 0.865f),
+          Color.hsl(124f, 0.390f, 0.797f),
+          Color.hsl(126f, 0.371f, 0.702f),
+          Color.hsl(131f, 0.381f, 0.563f),
+          Color.hsl(131f, 0.410f, 0.465f),
+          Color.hsl(132f, 0.431f, 0.422f),
+          Color.hsl(133f, 0.500f, 0.325f),
+          Color.hsl(130f, 0.300f, 0.149f),
+      )
+  /** [Radix Colors] Collection: grassA */
+  val grassA =
+      listOf(
+          Color.hsl(120f, 0.949f, 0.387f, 0.016f),
+          Color.hsl(120f, 0.949f, 0.387f, 0.048f),
+          Color.hsl(120f, 0.980f, 0.355f, 0.079f),
+          Color.hsl(120f, 0.987f, 0.315f, 0.126f),
+          Color.hsl(122f, 0.985f, 0.299f, 0.193f),
+          Color.hsl(125f, 0.992f, 0.279f, 0.283f),
+          Color.hsl(125f, 0.999f, 0.270f, 0.408f),
+          Color.hsl(131f, 1.000f, 0.276f, 0.604f),
+          Color.hsl(131f, 0.997f, 0.263f, 0.726f),
+          Color.hsl(132f, 0.999f, 0.240f, 0.761f),
+          Color.hsl(133f, 0.995f, 0.195f, 0.840f),
+          Color.hsl(128f, 0.980f, 0.049f, 0.895f),
+      )
+  /** [Radix Colors] Collection: grassDark */
+  val grassDark =
+      listOf(
+          Color.hsl(146f, 0.300f, 0.074f),
+          Color.hsl(136f, 0.333f, 0.088f),
+          Color.hsl(137f, 0.360f, 0.114f),
+          Color.hsl(137f, 0.376f, 0.137f),
+          Color.hsl(136f, 0.387f, 0.160f),
+          Color.hsl(135f, 0.396f, 0.191f),
+          Color.hsl(134f, 0.403f, 0.238f),
+          Color.hsl(131f, 0.401f, 0.308f),
+          Color.hsl(131f, 0.410f, 0.465f),
+          Color.hsl(131f, 0.390f, 0.521f),
+          Color.hsl(131f, 0.430f, 0.572f),
+          Color.hsl(137f, 0.720f, 0.940f),
+      )
+  /** [Radix Colors] Collection: grassDarkA */
+  val grassDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(107f, 0.972f, 0.619f, 0.022f),
+          Color.hsl(128f, 0.965f, 0.698f, 0.066f),
+          Color.hsl(130f, 1.000f, 0.702f, 0.100f),
+          Color.hsl(130f, 0.982f, 0.691f, 0.140f),
+          Color.hsl(132f, 0.999f, 0.693f, 0.187f),
+          Color.hsl(132f, 0.999f, 0.698f, 0.261f),
+          Color.hsl(130f, 0.996f, 0.705f, 0.370f),
+          Color.hsl(130f, 0.997f, 0.706f, 0.618f),
+          Color.hsl(131f, 1.000f, 0.735f, 0.674f),
+          Color.hsl(130f, 0.997f, 0.756f, 0.731f),
+          Color.hsl(137f, 1.000f, 0.958f, 0.980f),
+      )
+  /** [Radix Colors] Collection: gray */
+  val gray =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.990f),
+          Color.hsl(0f, 0.000f, 0.973f),
+          Color.hsl(0f, 0.000f, 0.951f),
+          Color.hsl(0f, 0.000f, 0.930f),
+          Color.hsl(0f, 0.000f, 0.909f),
+          Color.hsl(0f, 0.000f, 0.887f),
+          Color.hsl(0f, 0.000f, 0.858f),
+          Color.hsl(0f, 0.000f, 0.780f),
+          Color.hsl(0f, 0.000f, 0.561f),
+          Color.hsl(0f, 0.000f, 0.523f),
+          Color.hsl(0f, 0.000f, 0.435f),
+          Color.hsl(0f, 0.000f, 0.090f),
+      )
+  /** [Radix Colors] Collection: grayA */
+  val grayA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.012f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.027f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.047f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.071f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.090f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.114f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.141f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.220f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.439f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.478f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.565f),
+          Color.hsl(0f, 0.000f, 0.000f, 0.910f),
+      )
+  /** [Radix Colors] Collection: grayDark */
+  val grayDark =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.085f),
+          Color.hsl(0f, 0.000f, 0.110f),
+          Color.hsl(0f, 0.000f, 0.136f),
+          Color.hsl(0f, 0.000f, 0.158f),
+          Color.hsl(0f, 0.000f, 0.179f),
+          Color.hsl(0f, 0.000f, 0.205f),
+          Color.hsl(0f, 0.000f, 0.243f),
+          Color.hsl(0f, 0.000f, 0.312f),
+          Color.hsl(0f, 0.000f, 0.439f),
+          Color.hsl(0f, 0.000f, 0.494f),
+          Color.hsl(0f, 0.000f, 0.628f),
+          Color.hsl(0f, 0.000f, 0.930f),
+      )
+  /** [Radix Colors] Collection: grayDarkA */
+  val grayDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 1.000f, 0.000f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.026f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.056f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.077f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.103f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.129f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.172f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.249f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.386f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.446f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.592f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.923f),
+      )
+  /** [Radix Colors] Collection: green */
+  val green =
+      listOf(
+          Color.hsl(136f, 0.500f, 0.989f),
+          Color.hsl(138f, 0.625f, 0.969f),
+          Color.hsl(139f, 0.552f, 0.945f),
+          Color.hsl(140f, 0.487f, 0.910f),
+          Color.hsl(141f, 0.437f, 0.860f),
+          Color.hsl(143f, 0.403f, 0.790f),
+          Color.hsl(146f, 0.385f, 0.690f),
+          Color.hsl(151f, 0.402f, 0.541f),
+          Color.hsl(151f, 0.550f, 0.415f),
+          Color.hsl(152f, 0.575f, 0.376f),
+          Color.hsl(153f, 0.670f, 0.285f),
+          Color.hsl(155f, 0.400f, 0.140f),
+      )
+  /** [Radix Colors] Collection: greenA */
+  val greenA =
+      listOf(
+          Color.hsl(140f, 0.949f, 0.387f, 0.016f),
+          Color.hsl(138f, 0.999f, 0.385f, 0.051f),
+          Color.hsl(139f, 0.977f, 0.369f, 0.087f),
+          Color.hsl(139f, 0.985f, 0.327f, 0.134f),
+          Color.hsl(141f, 1.000f, 0.304f, 0.200f),
+          Color.hsl(142f, 0.990f, 0.289f, 0.295f),
+          Color.hsl(146f, 0.995f, 0.276f, 0.428f),
+          Color.hsl(151f, 0.995f, 0.288f, 0.644f),
+          Color.hsl(151f, 0.999f, 0.280f, 0.812f),
+          Color.hsl(152f, 0.996f, 0.258f, 0.840f),
+          Color.hsl(153f, 0.999f, 0.210f, 0.906f),
+          Color.hsl(155f, 0.994f, 0.062f, 0.918f),
+      )
+  /** [Radix Colors] Collection: greenDark */
+  val greenDark =
+      listOf(
+          Color.hsl(146f, 0.300f, 0.074f),
+          Color.hsl(155f, 0.442f, 0.084f),
+          Color.hsl(155f, 0.467f, 0.109f),
+          Color.hsl(154f, 0.484f, 0.129f),
+          Color.hsl(154f, 0.497f, 0.149f),
+          Color.hsl(154f, 0.509f, 0.176f),
+          Color.hsl(153f, 0.518f, 0.218f),
+          Color.hsl(151f, 0.517f, 0.284f),
+          Color.hsl(151f, 0.550f, 0.415f),
+          Color.hsl(151f, 0.493f, 0.465f),
+          Color.hsl(151f, 0.500f, 0.532f),
+          Color.hsl(137f, 0.720f, 0.940f),
+      )
+  /** [Radix Colors] Collection: greenDarkA */
+  val greenDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(169f, 1.000f, 0.485f, 0.027f),
+          Color.hsl(162f, 0.987f, 0.579f, 0.070f),
+          Color.hsl(158f, 0.986f, 0.597f, 0.105f),
+          Color.hsl(158f, 0.986f, 0.607f, 0.140f),
+          Color.hsl(156f, 0.999f, 0.620f, 0.187f),
+          Color.hsl(154f, 0.995f, 0.631f, 0.257f),
+          Color.hsl(152f, 0.997f, 0.642f, 0.370f),
+          Color.hsl(151f, 0.997f, 0.638f, 0.605f),
+          Color.hsl(152f, 0.999f, 0.665f, 0.661f),
+          Color.hsl(151f, 0.997f, 0.692f, 0.740f),
+          Color.hsl(137f, 1.000f, 0.958f, 0.980f),
+      )
+  /** [Radix Colors] Collection: indigo */
+  val indigo =
+      listOf(
+          Color.hsl(225f, 0.600f, 0.994f),
+          Color.hsl(223f, 1.000f, 0.986f),
+          Color.hsl(223f, 0.984f, 0.971f),
+          Color.hsl(223f, 0.929f, 0.950f),
+          Color.hsl(224f, 0.871f, 0.920f),
+          Color.hsl(224f, 0.819f, 0.878f),
+          Color.hsl(225f, 0.774f, 0.821f),
+          Color.hsl(226f, 0.754f, 0.745f),
+          Color.hsl(226f, 0.700f, 0.555f),
+          Color.hsl(226f, 0.586f, 0.513f),
+          Color.hsl(226f, 0.550f, 0.450f),
+          Color.hsl(226f, 0.620f, 0.170f),
+      )
+  /** [Radix Colors] Collection: indigoA */
+  val indigoA =
+      listOf(
+          Color.hsl(240f, 0.926f, 0.265f, 0.008f),
+          Color.hsl(223f, 1.000f, 0.510f, 0.028f),
+          Color.hsl(224f, 1.000f, 0.501f, 0.059f),
+          Color.hsl(223f, 0.980f, 0.485f, 0.099f),
+          Color.hsl(225f, 0.986f, 0.464f, 0.150f),
+          Color.hsl(224f, 0.995f, 0.449f, 0.224f),
+          Color.hsl(225f, 0.997f, 0.439f, 0.318f),
+          Color.hsl(226f, 0.995f, 0.431f, 0.448f),
+          Color.hsl(226f, 1.000f, 0.412f, 0.757f),
+          Color.hsl(226f, 0.998f, 0.371f, 0.773f),
+          Color.hsl(226f, 0.996f, 0.311f, 0.797f),
+          Color.hsl(226f, 0.993f, 0.114f, 0.938f),
+      )
+  /** [Radix Colors] Collection: indigoDark */
+  val indigoDark =
+      listOf(
+          Color.hsl(229f, 0.240f, 0.100f),
+          Color.hsl(230f, 0.364f, 0.129f),
+          Color.hsl(228f, 0.433f, 0.175f),
+          Color.hsl(227f, 0.472f, 0.210f),
+          Color.hsl(227f, 0.500f, 0.241f),
+          Color.hsl(226f, 0.529f, 0.282f),
+          Color.hsl(226f, 0.560f, 0.345f),
+          Color.hsl(226f, 0.582f, 0.441f),
+          Color.hsl(226f, 0.700f, 0.555f),
+          Color.hsl(227f, 0.752f, 0.616f),
+          Color.hsl(228f, 1.000f, 0.759f),
+          Color.hsl(226f, 0.830f, 0.963f),
+      )
+  /** [Radix Colors] Collection: indigoDarkA */
+  val indigoDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(234f, 0.974f, 0.599f, 0.059f),
+          Color.hsl(228f, 0.992f, 0.617f, 0.144f),
+          Color.hsl(227f, 0.997f, 0.620f, 0.211f),
+          Color.hsl(227f, 0.992f, 0.623f, 0.270f),
+          Color.hsl(226f, 0.999f, 0.621f, 0.350f),
+          Color.hsl(226f, 0.999f, 0.620f, 0.471f),
+          Color.hsl(226f, 0.999f, 0.621f, 0.655f),
+          Color.hsl(226f, 0.999f, 0.636f, 0.848f),
+          Color.hsl(227f, 0.998f, 0.677f, 0.893f),
+          Color.hsl(227f, 1.000f, 0.763f, 0.980f),
+          Color.hsl(226f, 1.000f, 0.975f, 0.980f),
+      )
+  /** [Radix Colors] Collection: lime */
+  val lime =
+      listOf(
+          Color.hsl(85f, 0.500f, 0.987f),
+          Color.hsl(85f, 0.667f, 0.965f),
+          Color.hsl(85f, 0.760f, 0.923f),
+          Color.hsl(84f, 0.753f, 0.875f),
+          Color.hsl(84f, 0.715f, 0.819f),
+          Color.hsl(82f, 0.650f, 0.746f),
+          Color.hsl(79f, 0.532f, 0.618f),
+          Color.hsl(76f, 0.617f, 0.451f),
+          Color.hsl(81f, 0.670f, 0.500f),
+          Color.hsl(80f, 0.683f, 0.469f),
+          Color.hsl(75f, 0.800f, 0.260f),
+          Color.hsl(78f, 0.700f, 0.115f),
+      )
+  /** [Radix Colors] Collection: limeA */
+  val limeA =
+      listOf(
+          Color.hsl(80f, 0.938f, 0.314f, 0.020f),
+          Color.hsl(85f, 0.993f, 0.402f, 0.059f),
+          Color.hsl(84f, 0.987f, 0.432f, 0.138f),
+          Color.hsl(84f, 0.996f, 0.430f, 0.220f),
+          Color.hsl(85f, 0.998f, 0.418f, 0.310f),
+          Color.hsl(82f, 0.998f, 0.393f, 0.420f),
+          Color.hsl(79f, 0.997f, 0.346f, 0.585f),
+          Color.hsl(76f, 0.998f, 0.337f, 0.828f),
+          Color.hsl(81f, 0.998f, 0.402f, 0.836f),
+          Color.hsl(80f, 1.000f, 0.376f, 0.851f),
+          Color.hsl(75f, 0.995f, 0.220f, 0.950f),
+          Color.hsl(78f, 0.996f, 0.084f, 0.965f),
+      )
+  /** [Radix Colors] Collection: limeDark */
+  val limeDark =
+      listOf(
+          Color.hsl(75f, 0.550f, 0.060f),
+          Color.hsl(74f, 0.568f, 0.073f),
+          Color.hsl(78f, 0.502f, 0.099f),
+          Color.hsl(79f, 0.503f, 0.121f),
+          Color.hsl(79f, 0.526f, 0.142f),
+          Color.hsl(78f, 0.557f, 0.167f),
+          Color.hsl(77f, 0.597f, 0.201f),
+          Color.hsl(75f, 0.648f, 0.245f),
+          Color.hsl(81f, 0.670f, 0.500f),
+          Color.hsl(75f, 0.850f, 0.600f),
+          Color.hsl(81f, 0.700f, 0.438f),
+          Color.hsl(84f, 0.790f, 0.926f),
+      )
+  /** [Radix Colors] Collection: limeDarkA */
+  val limeDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(75f, 0.964f, 0.596f, 0.022f),
+          Color.hsl(88f, 0.980f, 0.704f, 0.061f),
+          Color.hsl(81f, 0.978f, 0.674f, 0.096f),
+          Color.hsl(82f, 0.984f, 0.656f, 0.135f),
+          Color.hsl(79f, 0.997f, 0.643f, 0.182f),
+          Color.hsl(77f, 0.991f, 0.621f, 0.252f),
+          Color.hsl(75f, 1.000f, 0.600f, 0.342f),
+          Color.hsl(81f, 0.998f, 0.597f, 0.819f),
+          Color.hsl(75f, 0.998f, 0.637f, 0.936f),
+          Color.hsl(81f, 0.999f, 0.587f, 0.719f),
+          Color.hsl(83f, 1.000f, 0.942f, 0.980f),
+      )
+  /** [Radix Colors] Collection: mauve */
+  val mauve =
+      listOf(
+          Color.hsl(300f, 0.200f, 0.990f),
+          Color.hsl(300f, 0.077f, 0.975f),
+          Color.hsl(294f, 0.055f, 0.953f),
+          Color.hsl(289f, 0.047f, 0.933f),
+          Color.hsl(283f, 0.044f, 0.913f),
+          Color.hsl(278f, 0.041f, 0.891f),
+          Color.hsl(271f, 0.039f, 0.863f),
+          Color.hsl(255f, 0.037f, 0.788f),
+          Color.hsl(252f, 0.040f, 0.573f),
+          Color.hsl(253f, 0.035f, 0.535f),
+          Color.hsl(252f, 0.040f, 0.448f),
+          Color.hsl(260f, 0.250f, 0.110f),
+      )
+  /** [Radix Colors] Collection: mauveA */
+  val mauveA =
+      listOf(
+          Color.hsl(300f, 0.893f, 0.183f, 0.012f),
+          Color.hsl(300f, 0.781f, 0.090f, 0.028f),
+          Color.hsl(300f, 0.995f, 0.077f, 0.051f),
+          Color.hsl(270f, 0.905f, 0.061f, 0.071f),
+          Color.hsl(270f, 0.830f, 0.052f, 0.091f),
+          Color.hsl(300f, 0.935f, 0.037f, 0.114f),
+          Color.hsl(270f, 0.826f, 0.033f, 0.142f),
+          Color.hsl(255f, 0.952f, 0.037f, 0.220f),
+          Color.hsl(255f, 0.948f, 0.037f, 0.444f),
+          Color.hsl(253f, 0.965f, 0.038f, 0.483f),
+          Color.hsl(247f, 0.979f, 0.032f, 0.569f),
+          Color.hsl(261f, 0.987f, 0.030f, 0.918f),
+      )
+  /** [Radix Colors] Collection: mauveDark */
+  val mauveDark =
+      listOf(
+          Color.hsl(246f, 0.060f, 0.090f),
+          Color.hsl(240f, 0.051f, 0.116f),
+          Color.hsl(241f, 0.050f, 0.143f),
+          Color.hsl(242f, 0.049f, 0.165f),
+          Color.hsl(243f, 0.049f, 0.188f),
+          Color.hsl(244f, 0.049f, 0.215f),
+          Color.hsl(245f, 0.049f, 0.254f),
+          Color.hsl(247f, 0.048f, 0.325f),
+          Color.hsl(252f, 0.040f, 0.452f),
+          Color.hsl(247f, 0.034f, 0.507f),
+          Color.hsl(253f, 0.040f, 0.637f),
+          Color.hsl(256f, 0.060f, 0.932f),
+      )
+  /** [Radix Colors] Collection: mauveDarkA */
+  val mauveDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(240f, 0.767f, 0.912f, 0.031f),
+          Color.hsl(240f, 0.860f, 0.958f, 0.061f),
+          Color.hsl(240f, 0.918f, 0.947f, 0.087f),
+          Color.hsl(240f, 0.915f, 0.958f, 0.113f),
+          Color.hsl(240f, 0.920f, 0.938f, 0.148f),
+          Color.hsl(240f, 0.948f, 0.953f, 0.191f),
+          Color.hsl(249f, 0.981f, 0.952f, 0.273f),
+          Color.hsl(248f, 0.976f, 0.962f, 0.416f),
+          Color.hsl(248f, 0.955f, 0.966f, 0.477f),
+          Color.hsl(250f, 0.980f, 0.980f, 0.615f),
+          Color.hsl(240f, 0.939f, 0.996f, 0.931f),
+      )
+  /** [Radix Colors] Collection: mint */
+  val mint =
+      listOf(
+          Color.hsl(165f, 0.800f, 0.988f),
+          Color.hsl(164f, 0.882f, 0.967f),
+          Color.hsl(164f, 0.766f, 0.933f),
+          Color.hsl(165f, 0.688f, 0.895f),
+          Color.hsl(165f, 0.606f, 0.845f),
+          Color.hsl(165f, 0.535f, 0.769f),
+          Color.hsl(166f, 0.507f, 0.661f),
+          Color.hsl(168f, 0.528f, 0.510f),
+          Color.hsl(167f, 0.650f, 0.660f),
+          Color.hsl(167f, 0.593f, 0.631f),
+          Color.hsl(172f, 0.720f, 0.285f),
+          Color.hsl(172f, 0.700f, 0.120f),
+      )
+  /** [Radix Colors] Collection: mintA */
+  val mintA =
+      listOf(
+          Color.hsl(168f, 0.954f, 0.428f, 0.024f),
+          Color.hsl(164f, 0.991f, 0.471f, 0.063f),
+          Color.hsl(164f, 0.993f, 0.435f, 0.118f),
+          Color.hsl(164f, 0.993f, 0.413f, 0.177f),
+          Color.hsl(165f, 0.990f, 0.375f, 0.248f),
+          Color.hsl(165f, 1.000f, 0.350f, 0.353f),
+          Color.hsl(166f, 0.999f, 0.335f, 0.510f),
+          Color.hsl(168f, 0.996f, 0.346f, 0.750f),
+          Color.hsl(167f, 0.999f, 0.395f, 0.561f),
+          Color.hsl(167f, 0.997f, 0.374f, 0.589f),
+          Color.hsl(172f, 0.998f, 0.224f, 0.922f),
+          Color.hsl(172f, 0.997f, 0.088f, 0.965f),
+      )
+  /** [Radix Colors] Collection: mintDark */
+  val mintDark =
+      listOf(
+          Color.hsl(173f, 0.500f, 0.066f),
+          Color.hsl(176f, 0.730f, 0.073f),
+          Color.hsl(175f, 0.793f, 0.089f),
+          Color.hsl(174f, 0.848f, 0.103f),
+          Color.hsl(174f, 0.902f, 0.119f),
+          Color.hsl(173f, 0.960f, 0.138f),
+          Color.hsl(172f, 1.000f, 0.168f),
+          Color.hsl(170f, 1.000f, 0.214f),
+          Color.hsl(167f, 0.650f, 0.660f),
+          Color.hsl(163f, 0.800f, 0.770f),
+          Color.hsl(167f, 0.700f, 0.480f),
+          Color.hsl(165f, 0.800f, 0.948f),
+      )
+  /** [Radix Colors] Collection: mintDarkA */
+  val mintDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(180f, 1.000f, 0.492f, 0.031f),
+          Color.hsl(176f, 1.000f, 0.497f, 0.070f),
+          Color.hsl(173f, 1.000f, 0.497f, 0.105f),
+          Color.hsl(173f, 1.000f, 0.498f, 0.144f),
+          Color.hsl(172f, 1.000f, 0.498f, 0.192f),
+          Color.hsl(171f, 1.000f, 0.499f, 0.266f),
+          Color.hsl(169f, 1.000f, 0.499f, 0.366f),
+          Color.hsl(167f, 0.998f, 0.750f, 0.870f),
+          Color.hsl(163f, 0.999f, 0.807f, 0.948f),
+          Color.hsl(167f, 0.999f, 0.587f, 0.796f),
+          Color.hsl(169f, 1.000f, 0.962f, 0.980f),
+      )
+  /** [Radix Colors] Collection: olive */
+  val olive =
+      listOf(
+          Color.hsl(110f, 0.200f, 0.990f),
+          Color.hsl(120f, 0.167f, 0.976f),
+          Color.hsl(119f, 0.101f, 0.952f),
+          Color.hsl(118f, 0.081f, 0.930f),
+          Color.hsl(117f, 0.071f, 0.908f),
+          Color.hsl(115f, 0.064f, 0.885f),
+          Color.hsl(114f, 0.059f, 0.854f),
+          Color.hsl(110f, 0.052f, 0.773f),
+          Color.hsl(110f, 0.035f, 0.555f),
+          Color.hsl(111f, 0.028f, 0.517f),
+          Color.hsl(110f, 0.030f, 0.430f),
+          Color.hsl(110f, 0.250f, 0.095f),
+      )
+  /** [Radix Colors] Collection: oliveA */
+  val oliveA =
+      listOf(
+          Color.hsl(120f, 0.893f, 0.183f, 0.012f),
+          Color.hsl(120f, 0.877f, 0.160f, 0.028f),
+          Color.hsl(120f, 0.995f, 0.077f, 0.051f),
+          Color.hsl(120f, 0.923f, 0.085f, 0.075f),
+          Color.hsl(120f, 0.860f, 0.069f, 0.099f),
+          Color.hsl(120f, 0.948f, 0.068f, 0.122f),
+          Color.hsl(120f, 0.993f, 0.052f, 0.153f),
+          Color.hsl(110f, 0.938f, 0.052f, 0.240f),
+          Color.hsl(111f, 0.987f, 0.030f, 0.459f),
+          Color.hsl(111f, 0.935f, 0.029f, 0.499f),
+          Color.hsl(111f, 0.952f, 0.025f, 0.585f),
+          Color.hsl(110f, 0.976f, 0.026f, 0.930f),
+      )
+  /** [Radix Colors] Collection: oliveDark */
+  val oliveDark =
+      listOf(
+          Color.hsl(110f, 0.050f, 0.086f),
+          Color.hsl(105f, 0.074f, 0.106f),
+          Color.hsl(106f, 0.064f, 0.131f),
+          Color.hsl(106f, 0.058f, 0.153f),
+          Color.hsl(107f, 0.053f, 0.174f),
+          Color.hsl(107f, 0.049f, 0.199f),
+          Color.hsl(108f, 0.044f, 0.236f),
+          Color.hsl(110f, 0.038f, 0.306f),
+          Color.hsl(110f, 0.060f, 0.425f),
+          Color.hsl(111f, 0.048f, 0.482f),
+          Color.hsl(110f, 0.050f, 0.618f),
+          Color.hsl(110f, 0.060f, 0.930f),
+      )
+  /** [Radix Colors] Collection: oliveDarkA */
+  val oliveDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(91f, 0.970f, 0.840f, 0.026f),
+          Color.hsl(101f, 0.874f, 0.877f, 0.057f),
+          Color.hsl(92f, 0.918f, 0.941f, 0.078f),
+          Color.hsl(101f, 0.926f, 0.935f, 0.104f),
+          Color.hsl(102f, 0.911f, 0.946f, 0.130f),
+          Color.hsl(102f, 0.925f, 0.959f, 0.173f),
+          Color.hsl(107f, 1.000f, 0.965f, 0.250f),
+          Color.hsl(110f, 0.983f, 0.941f, 0.397f),
+          Color.hsl(109f, 0.996f, 0.953f, 0.457f),
+          Color.hsl(113f, 0.953f, 0.972f, 0.600f),
+          Color.hsl(120f, 0.935f, 0.996f, 0.927f),
+      )
+  /** [Radix Colors] Collection: orange */
+  val orange =
+      listOf(
+          Color.hsl(24f, 0.700f, 0.990f),
+          Color.hsl(24f, 0.833f, 0.976f),
+          Color.hsl(24f, 1.000f, 0.953f),
+          Color.hsl(25f, 1.000f, 0.922f),
+          Color.hsl(25f, 1.000f, 0.882f),
+          Color.hsl(25f, 1.000f, 0.828f),
+          Color.hsl(24f, 1.000f, 0.753f),
+          Color.hsl(24f, 0.945f, 0.643f),
+          Color.hsl(24f, 0.940f, 0.500f),
+          Color.hsl(24f, 1.000f, 0.465f),
+          Color.hsl(24f, 1.000f, 0.370f),
+          Color.hsl(15f, 0.600f, 0.170f),
+      )
+  /** [Radix Colors] Collection: orangeA */
+  val orangeA =
+      listOf(
+          Color.hsl(20f, 0.949f, 0.387f, 0.016f),
+          Color.hsl(24f, 0.958f, 0.465f, 0.044f),
+          Color.hsl(25f, 1.000f, 0.505f, 0.095f),
+          Color.hsl(26f, 1.000f, 0.500f, 0.157f),
+          Color.hsl(25f, 1.000f, 0.501f, 0.236f),
+          Color.hsl(25f, 1.000f, 0.501f, 0.346f),
+          Color.hsl(24f, 1.000f, 0.501f, 0.495f),
+          Color.hsl(24f, 0.997f, 0.487f, 0.695f),
+          Color.hsl(24f, 0.999f, 0.484f, 0.969f),
+          Color.hsl(23f, 1.000f, 0.464f, 0.980f),
+          Color.hsl(23f, 1.000f, 0.368f, 0.980f),
+          Color.hsl(15f, 0.994f, 0.110f, 0.934f),
+      )
+  /** [Radix Colors] Collection: orangeDark */
+  val orangeDark =
+      listOf(
+          Color.hsl(30f, 0.700f, 0.072f),
+          Color.hsl(28f, 1.000f, 0.084f),
+          Color.hsl(26f, 0.911f, 0.116f),
+          Color.hsl(25f, 0.883f, 0.141f),
+          Color.hsl(24f, 0.876f, 0.166f),
+          Color.hsl(24f, 0.886f, 0.198f),
+          Color.hsl(24f, 0.924f, 0.240f),
+          Color.hsl(25f, 1.000f, 0.290f),
+          Color.hsl(24f, 0.940f, 0.500f),
+          Color.hsl(24f, 1.000f, 0.585f),
+          Color.hsl(24f, 1.000f, 0.622f),
+          Color.hsl(24f, 0.970f, 0.932f),
+      )
+  /** [Radix Colors] Collection: orangeDarkA */
+  val orangeDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(13f, 1.000f, 0.497f, 0.054f),
+          Color.hsl(20f, 1.000f, 0.497f, 0.117f),
+          Color.hsl(23f, 1.000f, 0.498f, 0.166f),
+          Color.hsl(23f, 0.994f, 0.501f, 0.215f),
+          Color.hsl(23f, 0.998f, 0.511f, 0.286f),
+          Color.hsl(23f, 0.997f, 0.506f, 0.389f),
+          Color.hsl(24f, 1.000f, 0.499f, 0.523f),
+          Color.hsl(24f, 0.999f, 0.516f, 0.965f),
+          Color.hsl(25f, 1.000f, 0.586f, 0.980f),
+          Color.hsl(24f, 1.000f, 0.624f, 0.980f),
+          Color.hsl(26f, 1.000f, 0.942f, 0.980f),
+      )
+  /** [Radix Colors] Collection: pink */
+  val pink =
+      listOf(
+          Color.hsl(322f, 1.000f, 0.994f),
+          Color.hsl(323f, 1.000f, 0.984f),
+          Color.hsl(323f, 0.863f, 0.965f),
+          Color.hsl(323f, 0.787f, 0.942f),
+          Color.hsl(323f, 0.722f, 0.911f),
+          Color.hsl(323f, 0.663f, 0.866f),
+          Color.hsl(323f, 0.620f, 0.801f),
+          Color.hsl(323f, 0.603f, 0.724f),
+          Color.hsl(322f, 0.650f, 0.545f),
+          Color.hsl(322f, 0.639f, 0.507f),
+          Color.hsl(322f, 0.750f, 0.460f),
+          Color.hsl(320f, 0.700f, 0.135f),
+      )
+  /** [Radix Colors] Collection: pinkA */
+  val pinkA =
+      listOf(
+          Color.hsl(320f, 1.000f, 0.510f, 0.012f),
+          Color.hsl(323f, 1.000f, 0.510f, 0.032f),
+          Color.hsl(323f, 0.989f, 0.473f, 0.067f),
+          Color.hsl(323f, 0.999f, 0.443f, 0.102f),
+          Color.hsl(324f, 0.999f, 0.423f, 0.153f),
+          Color.hsl(323f, 0.995f, 0.396f, 0.224f),
+          Color.hsl(323f, 0.997f, 0.385f, 0.322f),
+          Color.hsl(323f, 0.995f, 0.377f, 0.444f),
+          Color.hsl(322f, 0.997f, 0.393f, 0.750f),
+          Color.hsl(322f, 1.000f, 0.391f, 0.808f),
+          Color.hsl(322f, 0.998f, 0.390f, 0.887f),
+          Color.hsl(321f, 0.998f, 0.100f, 0.961f),
+      )
+  /** [Radix Colors] Collection: pinkDark */
+  val pinkDark =
+      listOf(
+          Color.hsl(318f, 0.250f, 0.096f),
+          Color.hsl(319f, 0.322f, 0.116f),
+          Color.hsl(319f, 0.410f, 0.160f),
+          Color.hsl(320f, 0.454f, 0.187f),
+          Color.hsl(320f, 0.490f, 0.211f),
+          Color.hsl(321f, 0.536f, 0.244f),
+          Color.hsl(321f, 0.611f, 0.297f),
+          Color.hsl(322f, 0.749f, 0.375f),
+          Color.hsl(322f, 0.650f, 0.545f),
+          Color.hsl(323f, 0.728f, 0.592f),
+          Color.hsl(325f, 0.900f, 0.664f),
+          Color.hsl(322f, 0.900f, 0.958f),
+      )
+  /** [Radix Colors] Collection: pinkDarkA */
+  val pinkDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(320f, 0.981f, 0.641f, 0.036f),
+          Color.hsl(320f, 0.991f, 0.631f, 0.121f),
+          Color.hsl(320f, 0.995f, 0.627f, 0.170f),
+          Color.hsl(319f, 0.997f, 0.615f, 0.219f),
+          Color.hsl(322f, 0.994f, 0.608f, 0.291f),
+          Color.hsl(321f, 0.996f, 0.587f, 0.407f),
+          Color.hsl(322f, 0.997f, 0.554f, 0.608f),
+          Color.hsl(322f, 1.000f, 0.646f, 0.817f),
+          Color.hsl(323f, 1.000f, 0.663f, 0.875f),
+          Color.hsl(325f, 0.999f, 0.686f, 0.960f),
+          Color.hsl(314f, 1.000f, 0.969f, 0.980f),
+      )
+  /** [Radix Colors] Collection: plum */
+  val plum =
+      listOf(
+          Color.hsl(292f, 0.900f, 0.994f),
+          Color.hsl(300f, 1.000f, 0.986f),
+          Color.hsl(299f, 0.712f, 0.964f),
+          Color.hsl(299f, 0.620f, 0.938f),
+          Color.hsl(298f, 0.561f, 0.905f),
+          Color.hsl(296f, 0.513f, 0.858f),
+          Color.hsl(295f, 0.482f, 0.789f),
+          Color.hsl(292f, 0.477f, 0.708f),
+          Color.hsl(292f, 0.450f, 0.510f),
+          Color.hsl(292f, 0.502f, 0.469f),
+          Color.hsl(292f, 0.600f, 0.425f),
+          Color.hsl(291f, 0.660f, 0.140f),
+      )
+  /** [Radix Colors] Collection: plumA */
+  val plumA =
+      listOf(
+          Color.hsl(280f, 1.000f, 0.510f, 0.012f),
+          Color.hsl(300f, 1.000f, 0.510f, 0.028f),
+          Color.hsl(300f, 0.990f, 0.409f, 0.063f),
+          Color.hsl(300f, 0.999f, 0.385f, 0.102f),
+          Color.hsl(298f, 0.982f, 0.359f, 0.150f),
+          Color.hsl(297f, 0.996f, 0.337f, 0.216f),
+          Color.hsl(295f, 0.997f, 0.326f, 0.314f),
+          Color.hsl(292f, 0.996f, 0.324f, 0.432f),
+          Color.hsl(292f, 0.999f, 0.310f, 0.710f),
+          Color.hsl(292f, 0.999f, 0.308f, 0.765f),
+          Color.hsl(292f, 0.998f, 0.307f, 0.832f),
+          Color.hsl(291f, 0.999f, 0.097f, 0.953f),
+      )
+  /** [Radix Colors] Collection: plumDark */
+  val plumDark =
+      listOf(
+          Color.hsl(301f, 0.200f, 0.094f),
+          Color.hsl(300f, 0.298f, 0.112f),
+          Color.hsl(298f, 0.344f, 0.153f),
+          Color.hsl(297f, 0.368f, 0.183f),
+          Color.hsl(296f, 0.385f, 0.211f),
+          Color.hsl(295f, 0.404f, 0.247f),
+          Color.hsl(294f, 0.427f, 0.306f),
+          Color.hsl(292f, 0.451f, 0.400f),
+          Color.hsl(292f, 0.450f, 0.510f),
+          Color.hsl(295f, 0.500f, 0.554f),
+          Color.hsl(300f, 0.600f, 0.620f),
+          Color.hsl(296f, 0.740f, 0.957f),
+      )
+  /** [Radix Colors] Collection: plumDarkA */
+  val plumDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(300f, 0.964f, 0.584f, 0.036f),
+          Color.hsl(300f, 0.994f, 0.671f, 0.102f),
+          Color.hsl(295f, 0.998f, 0.663f, 0.155f),
+          Color.hsl(295f, 0.994f, 0.671f, 0.204f),
+          Color.hsl(294f, 0.990f, 0.678f, 0.262f),
+          Color.hsl(294f, 0.999f, 0.677f, 0.363f),
+          Color.hsl(292f, 0.998f, 0.675f, 0.527f),
+          Color.hsl(292f, 0.999f, 0.692f, 0.695f),
+          Color.hsl(295f, 0.999f, 0.708f, 0.748f),
+          Color.hsl(300f, 0.998f, 0.729f, 0.828f),
+          Color.hsl(300f, 1.000f, 0.971f, 0.980f),
+      )
+  /** [Radix Colors] Collection: purple */
+  val purple =
+      listOf(
+          Color.hsl(280f, 0.650f, 0.994f),
+          Color.hsl(276f, 1.000f, 0.990f),
+          Color.hsl(276f, 0.831f, 0.970f),
+          Color.hsl(275f, 0.764f, 0.947f),
+          Color.hsl(275f, 0.708f, 0.918f),
+          Color.hsl(274f, 0.654f, 0.878f),
+          Color.hsl(273f, 0.610f, 0.817f),
+          Color.hsl(272f, 0.600f, 0.735f),
+          Color.hsl(272f, 0.510f, 0.540f),
+          Color.hsl(272f, 0.468f, 0.503f),
+          Color.hsl(272f, 0.500f, 0.458f),
+          Color.hsl(272f, 0.660f, 0.160f),
+      )
+  /** [Radix Colors] Collection: purpleA */
+  val purpleA =
+      listOf(
+          Color.hsl(300f, 0.943f, 0.346f, 0.012f),
+          Color.hsl(276f, 1.000f, 0.510f, 0.020f),
+          Color.hsl(277f, 0.996f, 0.465f, 0.055f),
+          Color.hsl(274f, 0.979f, 0.443f, 0.095f),
+          Color.hsl(276f, 0.986f, 0.420f, 0.142f),
+          Color.hsl(275f, 1.000f, 0.392f, 0.200f),
+          Color.hsl(273f, 0.992f, 0.382f, 0.295f),
+          Color.hsl(272f, 0.997f, 0.376f, 0.424f),
+          Color.hsl(272f, 0.996f, 0.340f, 0.695f),
+          Color.hsl(272f, 0.997f, 0.320f, 0.730f),
+          Color.hsl(272f, 0.998f, 0.297f, 0.773f),
+          Color.hsl(272f, 0.992f, 0.113f, 0.946f),
+      )
+  /** [Radix Colors] Collection: purpleDark */
+  val purpleDark =
+      listOf(
+          Color.hsl(284f, 0.200f, 0.096f),
+          Color.hsl(283f, 0.300f, 0.118f),
+          Color.hsl(281f, 0.375f, 0.165f),
+          Color.hsl(280f, 0.412f, 0.200f),
+          Color.hsl(279f, 0.438f, 0.233f),
+          Color.hsl(277f, 0.464f, 0.275f),
+          Color.hsl(275f, 0.493f, 0.346f),
+          Color.hsl(272f, 0.521f, 0.459f),
+          Color.hsl(272f, 0.510f, 0.540f),
+          Color.hsl(273f, 0.573f, 0.591f),
+          Color.hsl(275f, 0.800f, 0.710f),
+          Color.hsl(279f, 0.750f, 0.957f),
+      )
+  /** [Radix Colors] Collection: purpleDarkA */
+  val purpleDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(280f, 0.965f, 0.575f, 0.045f),
+          Color.hsl(279f, 0.987f, 0.628f, 0.129f),
+          Color.hsl(279f, 0.991f, 0.640f, 0.191f),
+          Color.hsl(278f, 0.998f, 0.642f, 0.248f),
+          Color.hsl(276f, 0.996f, 0.646f, 0.328f),
+          Color.hsl(274f, 0.999f, 0.646f, 0.456f),
+          Color.hsl(272f, 0.997f, 0.646f, 0.660f),
+          Color.hsl(272f, 0.999f, 0.691f, 0.748f),
+          Color.hsl(273f, 1.000f, 0.713f, 0.801f),
+          Color.hsl(275f, 0.999f, 0.753f, 0.934f),
+          Color.hsl(286f, 1.000f, 0.971f, 0.980f),
+      )
+  /** [Radix Colors] Collection: red */
+  val red =
+      listOf(
+          Color.hsl(359f, 1.000f, 0.994f),
+          Color.hsl(359f, 1.000f, 0.986f),
+          Color.hsl(360f, 1.000f, 0.968f),
+          Color.hsl(360f, 0.979f, 0.948f),
+          Color.hsl(360f, 0.902f, 0.919f),
+          Color.hsl(360f, 0.817f, 0.878f),
+          Color.hsl(359f, 0.742f, 0.817f),
+          Color.hsl(359f, 0.695f, 0.743f),
+          Color.hsl(358f, 0.750f, 0.590f),
+          Color.hsl(358f, 0.694f, 0.552f),
+          Color.hsl(358f, 0.650f, 0.487f),
+          Color.hsl(354f, 0.500f, 0.146f),
+      )
+  /** [Radix Colors] Collection: redA */
+  val redA =
+      listOf(
+          Color.hsl(0f, 1.000f, 0.510f, 0.012f),
+          Color.hsl(0f, 1.000f, 0.510f, 0.032f),
+          Color.hsl(0f, 1.000f, 0.502f, 0.063f),
+          Color.hsl(0f, 1.000f, 0.500f, 0.102f),
+          Color.hsl(0f, 0.999f, 0.475f, 0.153f),
+          Color.hsl(0f, 0.995f, 0.449f, 0.224f),
+          Color.hsl(359f, 0.997f, 0.427f, 0.318f),
+          Color.hsl(359f, 0.996f, 0.411f, 0.436f),
+          Color.hsl(358f, 0.999f, 0.429f, 0.718f),
+          Color.hsl(358f, 0.999f, 0.410f, 0.761f),
+          Color.hsl(358f, 0.998f, 0.383f, 0.832f),
+          Color.hsl(355f, 0.993f, 0.079f, 0.926f),
+      )
+  /** [Radix Colors] Collection: redDark */
+  val redDark =
+      listOf(
+          Color.hsl(353f, 0.230f, 0.098f),
+          Color.hsl(357f, 0.344f, 0.120f),
+          Color.hsl(356f, 0.434f, 0.164f),
+          Color.hsl(356f, 0.476f, 0.192f),
+          Color.hsl(356f, 0.511f, 0.219f),
+          Color.hsl(356f, 0.552f, 0.259f),
+          Color.hsl(357f, 0.602f, 0.318f),
+          Color.hsl(358f, 0.650f, 0.404f),
+          Color.hsl(358f, 0.750f, 0.590f),
+          Color.hsl(358f, 0.853f, 0.640f),
+          Color.hsl(358f, 1.000f, 0.695f),
+          Color.hsl(351f, 0.890f, 0.960f),
+      )
+  /** [Radix Colors] Collection: redDarkA */
+  val redDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(5f, 0.985f, 0.538f, 0.045f),
+          Color.hsl(359f, 0.991f, 0.611f, 0.130f),
+          Color.hsl(358f, 0.988f, 0.610f, 0.184f),
+          Color.hsl(357f, 0.996f, 0.603f, 0.237f),
+          Color.hsl(358f, 0.996f, 0.603f, 0.322f),
+          Color.hsl(357f, 1.000f, 0.595f, 0.442f),
+          Color.hsl(358f, 0.998f, 0.591f, 0.621f),
+          Color.hsl(358f, 1.000f, 0.655f, 0.884f),
+          Color.hsl(358f, 1.000f, 0.675f, 0.942f),
+          Color.hsl(358f, 1.000f, 0.697f, 0.980f),
+          Color.hsl(352f, 1.000f, 0.971f, 0.980f),
+      )
+  /** [Radix Colors] Collection: sage */
+  val sage =
+      listOf(
+          Color.hsl(155f, 0.300f, 0.988f),
+          Color.hsl(150f, 0.167f, 0.976f),
+          Color.hsl(151f, 0.106f, 0.952f),
+          Color.hsl(151f, 0.088f, 0.930f),
+          Color.hsl(151f, 0.078f, 0.908f),
+          Color.hsl(152f, 0.072f, 0.884f),
+          Color.hsl(153f, 0.067f, 0.853f),
+          Color.hsl(154f, 0.061f, 0.775f),
+          Color.hsl(155f, 0.035f, 0.555f),
+          Color.hsl(154f, 0.028f, 0.517f),
+          Color.hsl(155f, 0.030f, 0.430f),
+          Color.hsl(155f, 0.240f, 0.090f),
+      )
+  /** [Radix Colors] Collection: sageA */
+  val sageA =
+      listOf(
+          Color.hsl(150f, 0.926f, 0.265f, 0.016f),
+          Color.hsl(150f, 0.877f, 0.160f, 0.028f),
+          Color.hsl(160f, 0.984f, 0.109f, 0.055f),
+          Color.hsl(140f, 0.923f, 0.085f, 0.075f),
+          Color.hsl(160f, 0.860f, 0.069f, 0.099f),
+          Color.hsl(156f, 0.951f, 0.082f, 0.126f),
+          Color.hsl(156f, 0.986f, 0.063f, 0.157f),
+          Color.hsl(154f, 0.946f, 0.060f, 0.240f),
+          Color.hsl(154f, 0.987f, 0.030f, 0.459f),
+          Color.hsl(154f, 0.935f, 0.029f, 0.499f),
+          Color.hsl(154f, 0.952f, 0.025f, 0.585f),
+          Color.hsl(158f, 0.970f, 0.024f, 0.934f),
+      )
+  /** [Radix Colors] Collection: sageDark */
+  val sageDark =
+      listOf(
+          Color.hsl(155f, 0.070f, 0.084f),
+          Color.hsl(150f, 0.074f, 0.106f),
+          Color.hsl(150f, 0.067f, 0.131f),
+          Color.hsl(150f, 0.064f, 0.153f),
+          Color.hsl(150f, 0.061f, 0.174f),
+          Color.hsl(150f, 0.058f, 0.199f),
+          Color.hsl(150f, 0.055f, 0.236f),
+          Color.hsl(150f, 0.051f, 0.306f),
+          Color.hsl(155f, 0.060f, 0.425f),
+          Color.hsl(153f, 0.048f, 0.482f),
+          Color.hsl(155f, 0.050f, 0.618f),
+          Color.hsl(155f, 0.060f, 0.930f),
+      )
+  /** [Radix Colors] Collection: sageDarkA */
+  val sageDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(123f, 0.944f, 0.914f, 0.026f),
+          Color.hsl(123f, 0.829f, 0.910f, 0.057f),
+          Color.hsl(124f, 0.979f, 0.945f, 0.082f),
+          Color.hsl(125f, 0.900f, 0.952f, 0.104f),
+          Color.hsl(142f, 0.951f, 0.948f, 0.134f),
+          Color.hsl(143f, 0.928f, 0.957f, 0.173f),
+          Color.hsl(146f, 0.947f, 0.953f, 0.255f),
+          Color.hsl(151f, 0.982f, 0.944f, 0.397f),
+          Color.hsl(148f, 0.995f, 0.955f, 0.457f),
+          Color.hsl(152f, 0.951f, 0.973f, 0.600f),
+          Color.hsl(149f, 0.933f, 0.996f, 0.927f),
+      )
+  /** [Radix Colors] Collection: sand */
+  val sand =
+      listOf(
+          Color.hsl(50f, 0.200f, 0.990f),
+          Color.hsl(60f, 0.077f, 0.975f),
+          Color.hsl(59f, 0.065f, 0.951f),
+          Color.hsl(58f, 0.061f, 0.929f),
+          Color.hsl(57f, 0.060f, 0.907f),
+          Color.hsl(56f, 0.059f, 0.884f),
+          Color.hsl(55f, 0.059f, 0.852f),
+          Color.hsl(51f, 0.060f, 0.771f),
+          Color.hsl(50f, 0.020f, 0.557f),
+          Color.hsl(55f, 0.017f, 0.519f),
+          Color.hsl(50f, 0.020f, 0.431f),
+          Color.hsl(50f, 0.060f, 0.100f),
+      )
+  /** [Radix Colors] Collection: sandA */
+  val sandA =
+      listOf(
+          Color.hsl(60f, 0.893f, 0.183f, 0.012f),
+          Color.hsl(60f, 0.781f, 0.090f, 0.028f),
+          Color.hsl(60f, 0.990f, 0.039f, 0.051f),
+          Color.hsl(60f, 0.889f, 0.059f, 0.075f),
+          Color.hsl(60f, 0.860f, 0.069f, 0.099f),
+          Color.hsl(60f, 0.932f, 0.052f, 0.122f),
+          Color.hsl(60f, 0.983f, 0.051f, 0.157f),
+          Color.hsl(51f, 0.941f, 0.060f, 0.244f),
+          Color.hsl(60f, 0.998f, 0.017f, 0.451f),
+          Color.hsl(60f, 0.907f, 0.018f, 0.491f),
+          Color.hsl(45f, 0.937f, 0.015f, 0.577f),
+          Color.hsl(60f, 0.980f, 0.007f, 0.906f),
+      )
+  /** [Radix Colors] Collection: sandDark */
+  val sandDark =
+      listOf(
+          Color.hsl(61f, 0.020f, 0.083f),
+          Color.hsl(60f, 0.037f, 0.106f),
+          Color.hsl(58f, 0.037f, 0.131f),
+          Color.hsl(57f, 0.036f, 0.153f),
+          Color.hsl(56f, 0.037f, 0.174f),
+          Color.hsl(55f, 0.037f, 0.199f),
+          Color.hsl(53f, 0.037f, 0.236f),
+          Color.hsl(50f, 0.038f, 0.306f),
+          Color.hsl(50f, 0.040f, 0.427f),
+          Color.hsl(52f, 0.031f, 0.483f),
+          Color.hsl(50f, 0.040f, 0.618f),
+          Color.hsl(56f, 0.040f, 0.928f),
+      )
+  /** [Radix Colors] Collection: sandDarkA */
+  val sandDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(60f, 0.898f, 0.914f, 0.026f),
+          Color.hsl(60f, 0.955f, 0.925f, 0.056f),
+          Color.hsl(60f, 0.756f, 0.964f, 0.078f),
+          Color.hsl(60f, 0.819f, 0.952f, 0.104f),
+          Color.hsl(41f, 0.876f, 0.948f, 0.134f),
+          Color.hsl(60f, 0.954f, 0.962f, 0.172f),
+          Color.hsl(49f, 0.935f, 0.957f, 0.254f),
+          Color.hsl(52f, 0.973f, 0.962f, 0.391f),
+          Color.hsl(52f, 0.978f, 0.967f, 0.451f),
+          Color.hsl(51f, 0.970f, 0.978f, 0.597f),
+          Color.hsl(60f, 0.887f, 0.998f, 0.923f),
+      )
+  /** [Radix Colors] Collection: sky */
+  val sky =
+      listOf(
+          Color.hsl(193f, 1.000f, 0.988f),
+          Color.hsl(193f, 1.000f, 0.973f),
+          Color.hsl(193f, 0.990f, 0.947f),
+          Color.hsl(193f, 0.914f, 0.914f),
+          Color.hsl(194f, 0.820f, 0.866f),
+          Color.hsl(194f, 0.741f, 0.795f),
+          Color.hsl(194f, 0.723f, 0.696f),
+          Color.hsl(193f, 0.779f, 0.539f),
+          Color.hsl(193f, 0.980f, 0.700f),
+          Color.hsl(193f, 0.870f, 0.665f),
+          Color.hsl(195f, 1.000f, 0.315f),
+          Color.hsl(195f, 1.000f, 0.130f),
+      )
+  /** [Radix Colors] Collection: skyA */
+  val skyA =
+      listOf(
+          Color.hsl(190f, 1.000f, 0.510f, 0.024f),
+          Color.hsl(193f, 1.000f, 0.501f, 0.055f),
+          Color.hsl(193f, 1.000f, 0.501f, 0.106f),
+          Color.hsl(194f, 0.996f, 0.477f, 0.165f),
+          Color.hsl(194f, 0.992f, 0.454f, 0.244f),
+          Color.hsl(194f, 0.999f, 0.423f, 0.357f),
+          Color.hsl(194f, 0.998f, 0.422f, 0.526f),
+          Color.hsl(193f, 0.999f, 0.438f, 0.820f),
+          Color.hsl(193f, 0.997f, 0.494f, 0.593f),
+          Color.hsl(193f, 0.998f, 0.466f, 0.628f),
+          Color.hsl(196f, 1.000f, 0.312f, 0.980f),
+          Color.hsl(196f, 1.000f, 0.122f, 0.980f),
+      )
+  /** [Radix Colors] Collection: skyDark */
+  val skyDark =
+      listOf(
+          Color.hsl(205f, 0.450f, 0.086f),
+          Color.hsl(202f, 0.714f, 0.096f),
+          Color.hsl(201f, 0.746f, 0.122f),
+          Color.hsl(201f, 0.774f, 0.144f),
+          Color.hsl(200f, 0.803f, 0.165f),
+          Color.hsl(200f, 0.841f, 0.189f),
+          Color.hsl(199f, 0.902f, 0.221f),
+          Color.hsl(198f, 1.000f, 0.261f),
+          Color.hsl(193f, 0.980f, 0.700f),
+          Color.hsl(192f, 1.000f, 0.770f),
+          Color.hsl(192f, 0.850f, 0.558f),
+          Color.hsl(198f, 0.980f, 0.958f),
+      )
+  /** [Radix Colors] Collection: skyDarkA */
+  val skyDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(208f, 1.000f, 0.498f, 0.045f),
+          Color.hsl(201f, 1.000f, 0.498f, 0.099f),
+          Color.hsl(201f, 1.000f, 0.500f, 0.148f),
+          Color.hsl(200f, 1.000f, 0.498f, 0.198f),
+          Color.hsl(199f, 1.000f, 0.499f, 0.256f),
+          Color.hsl(199f, 1.000f, 0.499f, 0.337f),
+          Color.hsl(199f, 1.000f, 0.500f, 0.453f),
+          Color.hsl(192f, 1.000f, 0.708f, 0.980f),
+          Color.hsl(190f, 1.000f, 0.776f, 0.980f),
+          Color.hsl(192f, 0.999f, 0.596f, 0.924f),
+          Color.hsl(189f, 1.000f, 0.968f, 0.980f),
+      )
+  /** [Radix Colors] Collection: slate */
+  val slate =
+      listOf(
+          Color.hsl(206f, 0.300f, 0.988f),
+          Color.hsl(210f, 0.167f, 0.976f),
+          Color.hsl(209f, 0.133f, 0.953f),
+          Color.hsl(209f, 0.122f, 0.932f),
+          Color.hsl(208f, 0.117f, 0.911f),
+          Color.hsl(208f, 0.113f, 0.889f),
+          Color.hsl(207f, 0.111f, 0.859f),
+          Color.hsl(205f, 0.107f, 0.780f),
+          Color.hsl(206f, 0.060f, 0.561f),
+          Color.hsl(206f, 0.058f, 0.523f),
+          Color.hsl(206f, 0.060f, 0.435f),
+          Color.hsl(206f, 0.240f, 0.090f),
+      )
+  /** [Radix Colors] Collection: slateA */
+  val slateA =
+      listOf(
+          Color.hsl(210f, 0.926f, 0.265f, 0.016f),
+          Color.hsl(210f, 0.877f, 0.160f, 0.028f),
+          Color.hsl(210f, 0.988f, 0.144f, 0.055f),
+          Color.hsl(210f, 0.941f, 0.111f, 0.075f),
+          Color.hsl(216f, 0.911f, 0.109f, 0.099f),
+          Color.hsl(206f, 0.964f, 0.113f, 0.126f),
+          Color.hsl(210f, 0.991f, 0.101f, 0.157f),
+          Color.hsl(205f, 0.965f, 0.100f, 0.244f),
+          Color.hsl(206f, 0.988f, 0.059f, 0.467f),
+          Color.hsl(206f, 0.996f, 0.054f, 0.506f),
+          Color.hsl(206f, 0.970f, 0.048f, 0.593f),
+          Color.hsl(202f, 0.970f, 0.024f, 0.934f),
+      )
+  /** [Radix Colors] Collection: slateDark */
+  val slateDark =
+      listOf(
+          Color.hsl(200f, 0.070f, 0.088f),
+          Color.hsl(195f, 0.071f, 0.110f),
+          Color.hsl(197f, 0.068f, 0.136f),
+          Color.hsl(198f, 0.066f, 0.158f),
+          Color.hsl(199f, 0.064f, 0.179f),
+          Color.hsl(201f, 0.062f, 0.205f),
+          Color.hsl(203f, 0.060f, 0.243f),
+          Color.hsl(207f, 0.056f, 0.316f),
+          Color.hsl(206f, 0.060f, 0.439f),
+          Color.hsl(206f, 0.052f, 0.495f),
+          Color.hsl(206f, 0.060f, 0.630f),
+          Color.hsl(210f, 0.060f, 0.930f),
+      )
+  /** [Radix Colors] Collection: slateDarkA */
+  val slateDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(181f, 0.989f, 0.918f, 0.026f),
+          Color.hsl(182f, 0.867f, 0.914f, 0.057f),
+          Color.hsl(209f, 0.867f, 0.939f, 0.083f),
+          Color.hsl(200f, 0.903f, 0.934f, 0.109f),
+          Color.hsl(209f, 0.953f, 0.935f, 0.139f),
+          Color.hsl(204f, 0.985f, 0.939f, 0.182f),
+          Color.hsl(209f, 0.940f, 0.947f, 0.265f),
+          Color.hsl(207f, 0.973f, 0.940f, 0.412f),
+          Color.hsl(209f, 0.994f, 0.952f, 0.472f),
+          Color.hsl(208f, 0.987f, 0.968f, 0.615f),
+          Color.hsl(211f, 0.867f, 0.996f, 0.927f),
+      )
+  /** [Radix Colors] Collection: teal */
+  val teal =
+      listOf(
+          Color.hsl(165f, 0.600f, 0.988f),
+          Color.hsl(169f, 0.647f, 0.967f),
+          Color.hsl(169f, 0.598f, 0.940f),
+          Color.hsl(169f, 0.531f, 0.902f),
+          Color.hsl(170f, 0.471f, 0.850f),
+          Color.hsl(170f, 0.426f, 0.779f),
+          Color.hsl(170f, 0.399f, 0.681f),
+          Color.hsl(172f, 0.421f, 0.525f),
+          Color.hsl(173f, 0.800f, 0.360f),
+          Color.hsl(173f, 0.834f, 0.325f),
+          Color.hsl(174f, 0.900f, 0.252f),
+          Color.hsl(170f, 0.500f, 0.125f),
+      )
+  /** [Radix Colors] Collection: tealA */
+  val tealA =
+      listOf(
+          Color.hsl(165f, 0.952f, 0.412f, 0.020f),
+          Color.hsl(169f, 0.995f, 0.394f, 0.055f),
+          Color.hsl(167f, 0.976f, 0.381f, 0.095f),
+          Color.hsl(168f, 0.981f, 0.346f, 0.150f),
+          Color.hsl(170f, 0.994f, 0.323f, 0.220f),
+          Color.hsl(170f, 0.997f, 0.301f, 0.314f),
+          Color.hsl(170f, 0.993f, 0.287f, 0.448f),
+          Color.hsl(172f, 0.998f, 0.297f, 0.675f),
+          Color.hsl(173f, 0.998f, 0.311f, 0.930f),
+          Color.hsl(173f, 0.997f, 0.287f, 0.946f),
+          Color.hsl(174f, 0.998f, 0.233f, 0.977f),
+          Color.hsl(171f, 0.988f, 0.068f, 0.938f),
+      )
+  /** [Radix Colors] Collection: tealDark */
+  val tealDark =
+      listOf(
+          Color.hsl(168f, 0.480f, 0.065f),
+          Color.hsl(169f, 0.778f, 0.071f),
+          Color.hsl(170f, 0.761f, 0.092f),
+          Color.hsl(171f, 0.758f, 0.110f),
+          Color.hsl(171f, 0.757f, 0.128f),
+          Color.hsl(172f, 0.758f, 0.151f),
+          Color.hsl(172f, 0.767f, 0.186f),
+          Color.hsl(173f, 0.802f, 0.237f),
+          Color.hsl(173f, 0.800f, 0.360f),
+          Color.hsl(174f, 0.839f, 0.382f),
+          Color.hsl(174f, 0.900f, 0.407f),
+          Color.hsl(166f, 0.730f, 0.931f),
+      )
+  /** [Radix Colors] Collection: tealDarkA */
+  val tealDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(171f, 1.000f, 0.492f, 0.031f),
+          Color.hsl(172f, 1.000f, 0.497f, 0.070f),
+          Color.hsl(175f, 1.000f, 0.497f, 0.105f),
+          Color.hsl(174f, 0.989f, 0.501f, 0.140f),
+          Color.hsl(174f, 1.000f, 0.518f, 0.187f),
+          Color.hsl(173f, 0.996f, 0.532f, 0.257f),
+          Color.hsl(174f, 0.996f, 0.533f, 0.366f),
+          Color.hsl(173f, 0.999f, 0.546f, 0.609f),
+          Color.hsl(174f, 0.999f, 0.538f, 0.670f),
+          Color.hsl(174f, 1.000f, 0.520f, 0.748f),
+          Color.hsl(166f, 0.986f, 0.950f, 0.979f),
+      )
+  /** [Radix Colors] Collection: tomato */
+  val tomato =
+      listOf(
+          Color.hsl(10f, 1.000f, 0.994f),
+          Color.hsl(8f, 1.000f, 0.984f),
+          Color.hsl(8f, 1.000f, 0.966f),
+          Color.hsl(8f, 1.000f, 0.943f),
+          Color.hsl(8f, 0.928f, 0.910f),
+          Color.hsl(9f, 0.847f, 0.863f),
+          Color.hsl(10f, 0.773f, 0.795f),
+          Color.hsl(10f, 0.716f, 0.710f),
+          Color.hsl(10f, 0.780f, 0.540f),
+          Color.hsl(10f, 0.715f, 0.500f),
+          Color.hsl(10f, 0.820f, 0.435f),
+          Color.hsl(10f, 0.500f, 0.135f),
+      )
+  /** [Radix Colors] Collection: tomatoA */
+  val tomatoA =
+      listOf(
+          Color.hsl(0f, 1.000f, 0.510f, 0.012f),
+          Color.hsl(8f, 1.000f, 0.510f, 0.032f),
+          Color.hsl(7f, 1.000f, 0.502f, 0.067f),
+          Color.hsl(8f, 1.000f, 0.501f, 0.114f),
+          Color.hsl(7f, 0.995f, 0.479f, 0.173f),
+          Color.hsl(9f, 0.999f, 0.462f, 0.255f),
+          Color.hsl(10f, 0.998f, 0.436f, 0.365f),
+          Color.hsl(10f, 0.995f, 0.418f, 0.499f),
+          Color.hsl(10f, 0.999f, 0.438f, 0.820f),
+          Color.hsl(10f, 1.000f, 0.418f, 0.859f),
+          Color.hsl(10f, 0.999f, 0.388f, 0.922f),
+          Color.hsl(10f, 0.990f, 0.074f, 0.934f),
+      )
+  /** [Radix Colors] Collection: tomatoDark */
+  val tomatoDark =
+      listOf(
+          Color.hsl(10f, 0.230f, 0.094f),
+          Color.hsl(9f, 0.448f, 0.114f),
+          Color.hsl(8f, 0.520f, 0.153f),
+          Color.hsl(7f, 0.563f, 0.180f),
+          Color.hsl(7f, 0.601f, 0.206f),
+          Color.hsl(8f, 0.648f, 0.240f),
+          Color.hsl(8f, 0.712f, 0.291f),
+          Color.hsl(10f, 0.802f, 0.357f),
+          Color.hsl(10f, 0.780f, 0.540f),
+          Color.hsl(10f, 0.817f, 0.590f),
+          Color.hsl(10f, 0.850f, 0.628f),
+          Color.hsl(10f, 0.890f, 0.960f),
+      )
+  /** [Radix Colors] Collection: tomatoDarkA */
+  val tomatoDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(5f, 1.000f, 0.496f, 0.058f),
+          Color.hsl(6f, 0.996f, 0.549f, 0.133f),
+          Color.hsl(6f, 0.992f, 0.554f, 0.191f),
+          Color.hsl(6f, 0.995f, 0.558f, 0.244f),
+          Color.hsl(7f, 0.997f, 0.559f, 0.319f),
+          Color.hsl(8f, 0.998f, 0.548f, 0.434f),
+          Color.hsl(10f, 0.998f, 0.535f, 0.598f),
+          Color.hsl(10f, 1.000f, 0.597f, 0.885f),
+          Color.hsl(10f, 1.000f, 0.636f, 0.916f),
+          Color.hsl(10f, 0.997f, 0.664f, 0.939f),
+          Color.hsl(12f, 1.000f, 0.971f, 0.980f),
+      )
+  /** [Radix Colors] Collection: violet */
+  val violet =
+      listOf(
+          Color.hsl(255f, 0.650f, 0.994f),
+          Color.hsl(252f, 1.000f, 0.990f),
+          Color.hsl(252f, 0.969f, 0.974f),
+          Color.hsl(252f, 0.915f, 0.955f),
+          Color.hsl(252f, 0.851f, 0.930f),
+          Color.hsl(252f, 0.778f, 0.894f),
+          Color.hsl(252f, 0.710f, 0.837f),
+          Color.hsl(252f, 0.686f, 0.763f),
+          Color.hsl(252f, 0.560f, 0.575f),
+          Color.hsl(251f, 0.481f, 0.535f),
+          Color.hsl(250f, 0.430f, 0.480f),
+          Color.hsl(254f, 0.600f, 0.185f),
+      )
+  /** [Radix Colors] Collection: violetA */
+  val violetA =
+      listOf(
+          Color.hsl(270f, 0.943f, 0.346f, 0.012f),
+          Color.hsl(252f, 1.000f, 0.510f, 0.020f),
+          Color.hsl(254f, 1.000f, 0.500f, 0.051f),
+          Color.hsl(251f, 0.983f, 0.482f, 0.087f),
+          Color.hsl(252f, 0.990f, 0.457f, 0.130f),
+          Color.hsl(251f, 0.991f, 0.440f, 0.189f),
+          Color.hsl(252f, 0.995f, 0.417f, 0.279f),
+          Color.hsl(252f, 1.000f, 0.407f, 0.400f),
+          Color.hsl(252f, 0.999f, 0.358f, 0.663f),
+          Color.hsl(251f, 0.996f, 0.325f, 0.691f),
+          Color.hsl(250f, 0.998f, 0.284f, 0.726f),
+          Color.hsl(254f, 0.995f, 0.119f, 0.926f),
+      )
+  /** [Radix Colors] Collection: violetDark */
+  val violetDark =
+      listOf(
+          Color.hsl(250f, 0.200f, 0.102f),
+          Color.hsl(255f, 0.303f, 0.129f),
+          Color.hsl(253f, 0.370f, 0.184f),
+          Color.hsl(252f, 0.401f, 0.225f),
+          Color.hsl(252f, 0.422f, 0.262f),
+          Color.hsl(251f, 0.443f, 0.311f),
+          Color.hsl(250f, 0.468f, 0.389f),
+          Color.hsl(250f, 0.518f, 0.512f),
+          Color.hsl(252f, 0.560f, 0.575f),
+          Color.hsl(251f, 0.632f, 0.632f),
+          Color.hsl(250f, 0.950f, 0.768f),
+          Color.hsl(252f, 0.870f, 0.964f),
+      )
+  /** [Radix Colors] Collection: violetDarkA */
+  val violetDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(258f, 0.982f, 0.610f, 0.054f),
+          Color.hsl(252f, 0.988f, 0.658f, 0.148f),
+          Color.hsl(253f, 0.997f, 0.657f, 0.219f),
+          Color.hsl(252f, 0.997f, 0.664f, 0.286f),
+          Color.hsl(251f, 0.997f, 0.662f, 0.371f),
+          Color.hsl(250f, 0.997f, 0.663f, 0.514f),
+          Color.hsl(250f, 0.997f, 0.661f, 0.733f),
+          Color.hsl(252f, 0.999f, 0.703f, 0.786f),
+          Color.hsl(251f, 0.999f, 0.729f, 0.844f),
+          Color.hsl(250f, 1.000f, 0.779f, 0.980f),
+          Color.hsl(254f, 1.000f, 0.975f, 0.980f),
+      )
+  /** [Radix Colors] Collection: whiteA */
+  val whiteA =
+      listOf(
+          Color.hsl(0f, 0.000f, 1.000f, 0.000f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.013f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.034f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.056f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.086f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.124f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.176f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.249f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.386f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.446f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.592f),
+          Color.hsl(0f, 0.000f, 1.000f, 0.923f),
+      )
+  /** [Radix Colors] Collection: yellow */
+  val yellow =
+      listOf(
+          Color.hsl(60f, 0.540f, 0.985f),
+          Color.hsl(52f, 1.000f, 0.955f),
+          Color.hsl(55f, 1.000f, 0.909f),
+          Color.hsl(54f, 1.000f, 0.866f),
+          Color.hsl(52f, 0.979f, 0.820f),
+          Color.hsl(50f, 0.894f, 0.761f),
+          Color.hsl(47f, 0.804f, 0.680f),
+          Color.hsl(48f, 1.000f, 0.461f),
+          Color.hsl(53f, 0.920f, 0.500f),
+          Color.hsl(50f, 1.000f, 0.485f),
+          Color.hsl(42f, 1.000f, 0.290f),
+          Color.hsl(40f, 0.550f, 0.135f),
+      )
+  /** [Radix Colors] Collection: yellowA */
+  val yellowA =
+      listOf(
+          Color.hsl(60f, 0.943f, 0.346f, 0.024f),
+          Color.hsl(52f, 1.000f, 0.504f, 0.091f),
+          Color.hsl(55f, 1.000f, 0.502f, 0.181f),
+          Color.hsl(54f, 1.000f, 0.501f, 0.267f),
+          Color.hsl(52f, 0.999f, 0.495f, 0.357f),
+          Color.hsl(50f, 1.000f, 0.474f, 0.451f),
+          Color.hsl(47f, 0.998f, 0.446f, 0.577f),
+          Color.hsl(48f, 1.000f, 0.460f, 0.980f),
+          Color.hsl(53f, 1.000f, 0.480f, 0.961f),
+          Color.hsl(50f, 1.000f, 0.484f, 0.980f),
+          Color.hsl(42f, 1.000f, 0.286f, 0.980f),
+          Color.hsl(41f, 0.989f, 0.080f, 0.942f),
+      )
+  /** [Radix Colors] Collection: yellowDark */
+  val yellowDark =
+      listOf(
+          Color.hsl(45f, 1.000f, 0.055f),
+          Color.hsl(46f, 1.000f, 0.067f),
+          Color.hsl(45f, 1.000f, 0.087f),
+          Color.hsl(45f, 1.000f, 0.104f),
+          Color.hsl(47f, 1.000f, 0.121f),
+          Color.hsl(49f, 1.000f, 0.143f),
+          Color.hsl(49f, 0.903f, 0.184f),
+          Color.hsl(50f, 1.000f, 0.220f),
+          Color.hsl(53f, 0.920f, 0.500f),
+          Color.hsl(54f, 1.000f, 0.680f),
+          Color.hsl(48f, 1.000f, 0.470f),
+          Color.hsl(53f, 1.000f, 0.910f),
+      )
+  /** [Radix Colors] Collection: yellowDarkA */
+  val yellowDarkA =
+      listOf(
+          Color.hsl(0f, 0.000f, 0.000f, 0.000f),
+          Color.hsl(49f, 1.000f, 0.491f, 0.027f),
+          Color.hsl(45f, 1.000f, 0.497f, 0.071f),
+          Color.hsl(46f, 1.000f, 0.497f, 0.111f),
+          Color.hsl(47f, 1.000f, 0.499f, 0.150f),
+          Color.hsl(51f, 1.000f, 0.498f, 0.199f),
+          Color.hsl(51f, 0.998f, 0.536f, 0.269f),
+          Color.hsl(51f, 1.000f, 0.499f, 0.371f),
+          Color.hsl(53f, 1.000f, 0.520f, 0.956f),
+          Color.hsl(56f, 1.000f, 0.684f, 0.980f),
+          Color.hsl(48f, 1.000f, 0.500f, 0.934f),
+          Color.hsl(60f, 1.000f, 0.918f, 0.980f),
+      )
 }

@@ -33,11 +33,9 @@ function parseColorString(colorString: string): string {
   const l = Number(parts[2]) / 100;
   if (parts.length === 4) {
     const a = Number(parts[3]);
-    return `Color.hsl(${h}, ${s.toFixed(3)}, ${l.toFixed(
-      3
-    )}, ${a.toFixed(3)})`;
+    return `Color.hsl(${h}f, ${s.toFixed(3)}f, ${l.toFixed(3)}f, ${a.toFixed(3)}f)`;
   }
-  return ` Color.hsl(${h}, ${s.toFixed(3)}, ${l.toFixed(3)})`;
+  return ` Color.hsl(${h}f, ${s.toFixed(3)}f, ${l.toFixed(3)}f)`;
 }
 
 const outputDir = "output";
@@ -72,7 +70,6 @@ function main() {
   for (const [name, colors] of radixEntries) {
     const isDarkClass = name.endsWith("Dark") || name.endsWith("DarkA");
     logger.write(`    /** [Radix Colors] Collection: ${name} */\n`);
-    logger.write(`    @JVMStatic\n`);
     logger.write(`    val ${name} =\n`);
     logger.write(`        listOf(\n`);
     for (const [colorName, color] of Object.entries(colors)) {
