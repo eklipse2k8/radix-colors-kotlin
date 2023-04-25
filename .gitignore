@@ -5,6 +5,7 @@
 .nova/
 .fleet/
 .vs/
+.yarn/
 
 node_modules/
 
